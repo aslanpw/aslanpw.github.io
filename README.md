@@ -1,4 +1,4 @@
-###Inbound Marketing
+### Inbound Marketing
 
 Objetivos
 Construir um experiência completa para atrair leads para um negócio
@@ -25,7 +25,7 @@ AIDA
 
       LEAD (e-mail)
 
-###Briefing
+### Briefing
 
 Criar uma campanha de inbound marketing para divulgar serviços de criação de sites, landing pages e e-mail marketing
 Gerar leads qualificados, com real interesse nos serviços oferecidos
