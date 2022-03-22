@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    background-color: #fdf7e6;
 }
 
 body {
@@ -17,6 +18,10 @@ header {
     align-content: space-between;
     justify-content: space-between;
     padding: 0 1rem;
+}
+
+header img {
+    width: 350px;
 }
 
 .pre-header h4 {
@@ -195,12 +200,12 @@ section .nav-lateral nav ul li:hover {
 }
 
 .main-col-4 h4 {
-    color: #b2a574;
+    color: #fff;
     font-size: 23px;
     font-weight: 300;
     line-height: 5rem;
     margin-top: 2rem;
-    background-color: #efebdb;
+    background-color: #514632;
     padding-left: 1rem;
 }
 
@@ -256,12 +261,24 @@ footer a {
 
 html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
     min-width: 120px !important;
+    width: 30% !important;
     text-align: center;
     background-color: #b2a574;
-    border: 1px solid #e9b600;
+    border: 1px solid #b2a574;
     font-size: 20px;
     font-weight: normal;
     font-family: 'Pridi', serif;;
+    border-radius: 10px;
+}
+
+html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button:hover {
+    background-color: #e0aa11;
+    border: 1.5px solid #2e2e2e;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
@@ -301,14 +318,13 @@ html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :roo
 }
 
 .form-article {
-    margin-top: 5rem;
     border-top: 1.5px solid #6a6a6a;
     padding: 5rem 0 5rem;
-    background-color: #efebdb;
+    background-color: #eaeae9;
 }
 
 html .cog-form__container, :root:root:root:root:root .cog-form__container {
-    background-color: #efebdb !important;
+    background-color: #eaeae9 !important;
 }
 
 html .cog-row, :root:root:root:root:root .cog-row {
@@ -319,18 +335,212 @@ html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :roo
     margin: 0 auto;
 }
 
+.banner-luna {
+    background-image: url(../img/Fotos/baby-luna-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%; 
+    border-top: 3px solid grey; 
+    border-bottom: 3px solid grey;
+    overflow: auto;
+}
+
+#text-banner h4{
+    color: #b2a574;
+    font-family: 'Pridi', serif;
+    font-weight: 500;
+    font-size: 3.7rem;
+}
+
+#text-banner h4:hover {
+    color: #e9b600;
+}
+
+#text-banner h5 {
+    color: white;
+    font-family: 'Pridi', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 4rem 1rem;
+    text-align: justify;
+    line-height: 4rem;
+}
+
+.text-banner-col-2 {
+    width: 20%;
+    background-color: #2e2e2e;
+    padding: 2rem;
+    display: block;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.button-cta {
+    text-align: center;
+    background-color: #b2a574;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Pridi', serif;;
+    color: white;
+    text-decoration: none;
+    padding:  0.8rem 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    display: block;
+    width: 40%;
+}
+
+.button-cta:hover {
+    background-color: #e0aa11;
+    border: 1.5px solid #d1d1d1;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.sobre-col-center {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    display: block;
+    text-align: center;
+    font-family: 'Pridi', serif;;
+    border-bottom: 1.5px dashed #6a6a6a;
+}
+
+.sobre-col-center img {
+    width: 150px;
+}
+
+.sobre-col-center h4 {
+    font-size: 4rem;
+    color: #2e2e2e;
+    margin: 2rem 0;
+}
+
+.sobre-col-center p {
+    font-size: 2rem;
+    color: #2e2e2e;
+    line-height: 5rem;
+}
+
+#saiba-mais {
+    margin: 4rem auto;
+    width: 15%;
+}
+
+.etapas-reproducao {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: block;
+    text-align: center;
+    font-family: 'Pridi', serif;;
+    border-bottom: 1.5px dashed #6a6a6a;
+}
+
+.etapas-reproducao h4 {
+    font-size: 4rem;
+    color: #2e2e2e;
+    margin: 5rem auto;
+}
+
+.etapa-col-center img {
+    width: 150px;
+    margin-right: 2rem;
+}
+
+.etapa-col-center {
+    display: flex;
+    align-items: center;
+    margin: 4rem auto;
+    justify-content: space-between;
+}
+
+.etapa-col-center h5 {
+    font-size: 3rem;
+    color: #b2a574;
+    width: 20%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.etapa-col-center p {
+    text-align: justify;
+    width: 50%;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.container-central {
+    margin: 4rem 0 9rem;
+}
+
+@media (max-width: 1440px) {
+
+    #saiba-mais {
+        width: 45%;
+    }
+    #text-banner h5 {
+        font-size: 2rem;
+    }
+    #text-banner h4 {
+        font-size: 3rem;
+    }
+    .text-banner-col-2 {
+    width: 30%;
+    }
+    .button-cta {
+        font-size: 15px;
+    }
+    .sobre-col-center p {
+        font-size: 2.1rem;
+    }
+    .etapas-reproducao {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .etapa-col-center p {
+        line-height: 2.8rem;
+        font-size: 2.1rem;
+    }
+    .etapa-col-center h5 {
+        width: 45%;
+    }
+    .etapa-col-center {
+        display: flex;
+    }
+    section nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 768px) {
     section nav ul {
-        display: inherit;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     section nav ul li {
         width: auto;
     }
 
+    .pre-header {
+        display: none;
+    }
+
     header {
-        display: block;
+        display: none;
     }    
 
     header img {
@@ -397,6 +607,108 @@ html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :roo
         margin: 0 auto;
     }
 
+    .banner-luna {
+        background-color: #b2a574;
+        background-image: url(../img/Fotos/hotshot-vertical-01.JPG);
+        height: 60vh;
+        min-height: 1300px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #text-banner h4{
+        color: #b2a574;
+        font-family: 'Pridi', serif;
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+    
+    #text-banner h4:hover {
+        color: #e9b600;
+    }
+    
+    #text-banner h5 {
+        color: white;
+        font-family: 'Pridi', serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin: 2rem 0.5rem;
+        text-align: justify;
+        line-height: 3rem;
+    }
+    
+    .text-banner-col-2 {
+        width: 80%;
+        background-color: #2e2e2e;
+        padding: 2rem;
+        display: block;
+        float: right;
+        margin: 25% 5%;
+        text-align: center;
+        height: auto;
+    }
+    
+    .button-cta {
+        text-align: center;
+        background-color: #b2a574;
+        border: 1px solid #e9b600;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        color: white;
+        text-decoration: none;
+        padding:  0.8rem 1rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        display: block;
+        width: 50%;
+    }
+
+    .sobre-col-center {
+        width: 70%;
+    }
+    .sobre-col-center h4 {
+        font-size: 3rem;
+    }
+    
+    .sobre-col-center p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .sobre-col-center img {
+        width: 130px;
+        margin: 2rem;
+    }
+    
+    .etapas-reproducao h4 {
+        font-size: 3rem;
+    }
+
+    .etapa-col-center {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 3rem;
+        justify-content: space-evenly;
+    }
+
+    .etapa-col-center img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .etapa-col-center h5 {
+        width: 70%;
+        font-size: 2.5rem;
+        margin: 0 0 3rem;
+    }
+
+    .etapa-col-center p {
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
     html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
         margin: 0 auto;
     }
@@ -407,23 +719,61 @@ html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :roo
 
     #mobile {
         display: block;
-        margin: 0 auto;
+        margin: 4rem 2rem;
+        width: 30%;
     }
 
     #dropdown {
         display: block;
+        font-size: 5rem;
+        padding: 4rem;
+        width: 100%;
+        color: white;
     }
 
     .dropdown-item {
         display: none;
     }
 
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 50% !important;
+    }
+
     #bt_menu:checked ~ .dropdown-item{
         display: block;
         margin: 0 auto;
+        width: 100%;
         }
          
        .dropdown-item{
         display: none;
         }
+
+        #bt_menu:checked ~ #mobile {
+            display: none;
+        }
+}
+
+@media (max-width: 425px) {
+    .banner-luna {
+        min-height: 700px;
+    }
+
+    .etapa-col-center p {
+        text-align: center;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 95% !important;
+    }
+    
+    #mobile {
+        width: 45%;
+        margin: 1rem 2rem;
+    }
+
+    #dropdown {
+        font-size: 4rem;
+        padding: 3rem;
+    }
 }
