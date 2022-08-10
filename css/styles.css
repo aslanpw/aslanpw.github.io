@@ -1,354 +1,559 @@
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: 'Pridi', serif;    
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between;
-    padding: 0 1rem;
-}
-
-.pre-header h4 {
-    background-color: #f3f3f3;
-    padding: 0.5rem;
-    text-align: right;
-}
-
-.pre-header a {
-    text-decoration: none;
-    color: darkgray;
-    font-weight: 500;
-}
-
-header img {
-    padding: 1rem;
-}
-
-header h1 {
-    width: 25%;
-    font-weight: 500;
-    color: #2e2e2e;
-}
-
-section article nav {
-    display: block;
-    background-color: transparent;
-}
-
-section article nav ol {
-    display: flex;
-    list-style-type: square;
-	padding-left: 1.5rem;
-}
-
-section article nav ol li {
-    padding: 2rem;
-    margin-left: 3rem;
-    color: #b2a574;
-}
-
-section article nav ol a li {
-    padding: 2rem;
-    margin-left: 3rem;
-    list-style-type: square;
-    color: black;
-}
-
-section article nav ol li a {
-    color: black;
-}
-
-.barra-title h1 {
-    font-size: 5.4rem;
-    padding: 2rem 0 2rem 2rem;
-    font-weight: 600;
-    border-bottom: 1.5px solid #6a6a6a;
-    color: #626262;
-}
-
-h1 {
-    font-size: 2.4rem;
-    
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
-
-h4 {
-    font-size: 1.6rem;
-}
-
-section {
-    font-size: 1.5rem; /*---Esquivale a 15px ---*/
-}
-
-section nav {
-    display: block;
-    background-color: #2e2e2e;
-}
-
-section nav ul {
-    display: flex;
-}
-
-section nav ul li {
-    width: 6%;
-    text-align: center;
-    padding: 2rem;
-}
-
-section nav ul li:hover {
-    background-color: #e9b600;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    font-size: 17px;
-}
-
-.nav-lateral {
-    display: block;
-    background-color: transparent;
-    width: 25%;
-    margin-left: 6.3rem;
-}
-
-section .nav-lateral nav ul {
-    display: block;
-}
-
-section .nav-lateral  nav ul li {
-    width: 89%;
-    text-align: center;
-    padding: 2rem;
-    background-color: #2e2e2e;
-    margin: 1rem 0 2rem 0;
-    font-size: 20px;
-}
-
-section .nav-lateral nav ul li:hover {
-    background-color: #e9b600;
-}
-
-.nav-lateral h2 {
-    color: #b2a574;
-    margin: 2rem 0 2rem 0;
-    width: 84%;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.main-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-col-4 {
-    width: 70%;
-    padding: 0 5rem 0 5rem;
-    margin: 0 auto;
-}
-
-.main-col-4 p {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-}
-
-.main-col-4 ol li p{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-}
-
-.main-col-4 h2 {
-    color: #b2a574;
-    font-size: 5rem;
-    margin-bottom: 2rem;
-    font-weight: 500;
-}
-
-.main-col-4 h3 {
-    color: #b2a574;
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 10rem;
-}
-
-.main-col-4 h4 {
-    color: #b2a574;
-    font-size: 23px;
-    font-weight: 300;
-    line-height: 5rem;
-    margin-top: 2rem;
-    background-color: #efebdb;
-    padding-left: 1rem;
-}
-
-.main-col-4 img {
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-footer {
-    background-color: #2e2e2e;
-    font-size: 15px;
-    color: white;
-    padding: 3rem 3rem 2rem;
-    align-content: center;
-    text-align: center;
-}
-
-footer p {
-    padding-bottom: 1rem;
-}
-
-footer a {
-    text-decoration: none;
-    color: #b2a574;
-}
-
-#mobile {
-    display: none;
-}
-
-#bt_menu {
-    display: none;
-}
-
-#dropdown {
-    display: none;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    font-size: 17px;
-    text-align: center;
-    padding: 2rem;
-}
-
-.dropdown-item {
-    display: block;
-    
-}
-
-.form {
-    padding: 2rem;
-}
-
-html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
-    min-width: 120px !important;
-    text-align: center;
-    background-color: #b2a574;
-    border: 1px solid #e9b600;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: 'Pridi', serif;;
-}
-
-html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
-    display: none;
-}
-
-html .cog-label, :root:root:root:root:root .cog-label {
-    font-weight: normal;
-    font-family: 'Pridi', serif;
-}
-
-html .cog-abuse, .cog-branding, .cog-branding--minimal {
-    visibility: hidden !important;
-    display: none !important;
-}
-
-html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
-    width: 100% !important;
-}
-
-.central {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.central h3 {
-    color: #b2a574;
-    font-size: 25px;
-    font-weight: 500;
-}
-
-.central p {
-    font-size: 20px;
-    line-height: 30px;
-    margin: 3rem 0 0;
-}
-
-.form-article {
-    margin-top: 5rem;
-    border-top: 1.5px solid #6a6a6a;
-    padding: 5rem 0 5rem;
-    background-color: #efebdb;
-}
-
-html .cog-form__container, :root:root:root:root:root .cog-form__container {
-    background-color: #efebdb !important;
-}
-
-html .cog-row, :root:root:root:root:root .cog-row {
-    margin-left: 0 !important;
-}
-
-html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
-    margin: 0 auto;
-}
-
-
-@media (max-width: 768px) {
-    section nav ul {
-        display: inherit;
+    /* Controle Geral */
+    :root {
+        --primary-color: #fdf7e6;
+        --secondary-color: #2e2e2e;
+        --tertiary-color: #f3f3f3;
+        --quaternary-color: #d79006;
+        --quinary-color: black;
+        --senary-color: #b2a574;
+        --septenary-color: #514632;
+        --octonary-color: #6a6a6a;
     }
 
-    section nav ul li {
-        width: auto;
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family: 'Pridi', serif !important;    
+        background-color: var(--primary-color) !important;
+    }
+
+
+    /* Controle Repartições */
+    h1 {
+        font-size: 2.4rem;   
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        font-size: 1.5rem; /*---Esquivale a 15px ---*/
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
     header {
-        display: block;
-    }    
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
 
     header img {
-        display: none;
+        width: 350px;
+    }
+
+    .pre-header h4 {
+        background-color: var(--tertiary-color);
+        padding: 0.5rem;
+        text-align: right;
+    }
+
+    .pre-header a {
+        text-decoration: none;
+        color: darkgray;
+        font-weight: 500;
+    }
+
+    header img {
+        padding: 1rem;
     }
 
     header h1 {
-        width: auto;
-        text-align: center;
-        margin-bottom: 1rem;
+        width: 20%;
+        font-weight: 500;
+        color: var(--secondary-color);
     }
 
-    footer {
-        font-size: 12px;
+     /* Menu Principal */
+     #main-menu {
+        display: block;
+        background-color: var(--secondary-color);
+    }
+
+    #main-menu ul {
+        display: flex;
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    #main-menu ul li {
+        width: 8% !important;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #main-menu ul li:hover {
+        background-color: var(--quaternary-color) !important;
+    }
+
+    /* Logomarca */
+    #mobile {
+        display: none;
+    }
+
+    /* Menu Dropdown */
+    #bt_menu {
+        display: none;
+    }
+
+    #dropdown {
+        display: none;
+        text-decoration: none;
+        color: var(--tertiary-color);
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .dropdown-item {
+        display: block;
+        
+    }
+
+    /* Banner Principal */
+    .banner {
+        background-image: url(../img/Fotos/baby-luna-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 250px 0px;
+        background-position: center center;
+    }
+
+    .banner .caption {
+        background-color: rgba(250,250,250,0.9);
+        padding: 30px;
+        max-width: 450px;
+    }
+    .banner .caption h2 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e1e1e;
+    }
+    .banner .caption .line-dec{
+        width: 30px;
+        height: 4px;
+        background-color: var(--quaternary-color);
+    }
+    .banner .caption p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    section article nav {
+        display: block;
+        background-color: transparent;
+    }
+
+    section article nav ol li {
+        padding: 2rem;
+        margin-left: 3rem;
+        color: var(--senary-color);
     }
 
     section article nav ol {
+        display: flex;
+        list-style-type: square;
+        padding-left: 1.5rem;
+    }
+
+    section article nav ol a li {
+        padding: 2rem;
+        margin-left: 3rem;
+        list-style-type: square;
+        color: var(--quinary-color);
+    }
+
+    section article nav ol li a {
+        color: var(--quinary-color);
+    }
+
+    nav a {
+        text-decoration: none;
+        color: var(--tertiary-color);
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    nav a:hover {
+        color: var(--tertiary-color);
+    }
+
+    .nav-lateral {
+        display: block;
+        background-color: transparent;
+        width: 25%;
+        margin-left: 6.3rem;
+    }
+
+    section .nav-lateral nav ul {
+        display: block;
+    }
+
+    section .nav-lateral  nav ul li {
+        width: 89%;
+        text-align: center;
+        padding: 2rem;
+        background-color: var(--secondary-color);
+        margin: 1rem 0 2rem 0;
+        font-size: 20px;
+    }
+
+    section .nav-lateral nav ul li:hover {
+        background-color: var(--quaternary-color);
+    }
+
+    .nav-lateral h2 {
+        color: var(--senary-color);
+        margin: 2rem 0 2rem 0;
+        width: 84%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .main-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-col-4 {
+        width: 70%;
+        padding: 0 5rem 0 5rem;
+        margin: 0 auto;
+    }
+
+    .main-col-4 p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .main-col-4 ol li p{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .main-col-4 h2 {
+        color: var(--senary-color);
+        font-size: 5rem;
+        margin-bottom: 2rem;
+        font-weight: 500;
+    }
+
+    .main-col-4 h3 {
+        color: var(--senary-color);
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 10rem;
+    }
+
+    .main-col-4 h4 {
+        color: var(--tertiary-color);
+        font-size: 23px;
+        font-weight: 300;
+        line-height: 5rem;
+        margin-top: 2rem;
+        background-color: var(--septenary-color);
+        padding-left: 1rem;
+    }
+
+    .main-col-4 img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        background-color: var(--secondary-color);
+        font-size: 15px;
+        color: white;
+        padding: 3rem 3rem 2rem;
+        align-content: center;
+        text-align: center;
+    }
+
+    footer p {
+        padding-bottom: 1rem;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: var(--senary-color);
+    }
+
+    a:hover {
+        color: var(--tertiary-color) !important;
+    }
+
+    .central {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .central h3 {
+        color: var(--senary-color);
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .central p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 3rem 0 0;
+    }
+
+    /* Formulário */
+    .form-article {
+        border-top: 1.5px solid var(--octonary-color);
+        padding: 5rem 0 5rem;
+        margin-top: 5rem;
+        background-color: var(--tertiary-color);
+    }
+
+    .form {
+        padding: 2rem;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        min-width: 120px !important;
+        width: 30% !important;
+        text-align: center;
+        background-color: var(--senary-color);
+        border: 1px solid var(--senary-color);
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        border-radius: 10px;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button:hover {
+        background-color: var(--quaternary-color);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
+    html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1 {
         display: none;
+    }
+
+    html .cog-label, :root:root:root:root:root .cog-label {
+        font-weight: normal;
+        font-family: 'Pridi', serif;
+    }
+
+    html .cog-abuse, .cog-branding, .cog-branding--minimal {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
+        width: 100% !important;
+    }
+
+    html .cog-page__navigation, :root:root:root:root:root .cog-page__navigation {
+        justify-content: center !important;
+    }
+
+    html .cog-form__container, :root:root:root:root:root .cog-form__container {
+        background-color: var(--tertiary-color) !important;
+    }
+
+    html .cog-row, :root:root:root:root:root .cog-row {
+        margin-left: 0 !important;
+    }
+
+    html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito ::before, :root:root:root:root:root .cog-cognito ::after {
+        margin: 0 auto;
+    }
+
+    .button-cta {
+        text-align: center;
+        background-color: var(--senary-color);
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        color: white;
+        text-decoration: none;
+        padding:  0.8rem 1rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        display: block;
+        width: 50%;
+    }
+
+    .button-cta:hover {
+        background-color: var(--quaternary-color);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
+    .sobre-col-center {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        display: block;
+        text-align: center;
+        font-family: 'Pridi', serif;;
+        border-bottom: 1.5px dashed var(--octonary-color);
+    }
+
+    .sobre-col-center img {
+        width: 150px;
+    }
+
+    .sobre-col-center h4 {
+        font-size: 4rem;
+        color: var(--secondary-color);
+    }
+
+    .sobre-col-center p {
+        font-size: 2rem;
+        color: var(--secondary-color);
+        line-height: 5rem;
+    }
+
+    #saiba-mais {
+        margin: 4rem auto;
+        width: 15%;
+    }
+
+    .etapas-reproducao {
+        font-family: 'Pridi', serif;;
+        border-bottom: 1.5px dashed var(--octonary-color);
+    }
+
+    .etapas-reproducao h4 {
+        font-size: 4rem;
+        color: var(--secondary-color);
+    }
+
+    .etapa-col-center img {
+        width: 150px;
+        margin-right: 2rem;
+    }
+
+    .etapa-col-center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .etapa-col-center h5 {
+        font-size: 3rem;
+        color: var(--senary-color);
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .etapa-col-center p {
+        text-align: justify;
+        width: 50%;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .container-central {
+        margin: 4rem 0 9rem;
+    }
+
+@media (max-width: 1440px) {
+    header h1 { 
+        width: 25%;
+        font-size: 2.5rem;
+    }
+    /* Menu Principal */
+    #main-menu ul li {
+        width: 10% !important;
+    }
+    #saiba-mais {
+        width: 20%;
+    }
+    .button-cta {
+        font-size: 2rem;
+    }
+    .sobre-col-center p {
+        font-size: 2rem;
+    }
+
+    .etapa-col-center p {
+        line-height: 2.8rem;
+        font-size: 2rem;
+    }
+
+    .etapa-col-center {
+        display: flex;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    header h1 { 
+        width: 32%;
+        font-size: 2.5rem;
+    }
+
+    #saiba-mais {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Menu Principal */
+    #main-menu {
+        display: flex;
+        background-color: var(--secondary-color);
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #main-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #main-menu ul li {
+        width: 100% !important;
+        border-top: 1px solid var(--primary-color);
+    }
+
+    .banner .caption p {
+        font-size: 1.6rem;
+    }
+
+    .pre-header {
+        display: none;
+    }
+
+    #saiba-mais {
+        width: 30%;
     }
 
     .main-content {
@@ -397,33 +602,162 @@ html .cog-cognito *, html .cog-cognito ::before, html .cog-cognito ::after, :roo
         margin: 0 auto;
     }
 
+    .banner {
+        padding: 180px 0px;
+    }  
+    
+    .button-cta {
+        text-align: center;
+        background-color: var(--senary-color);
+        border: 1px solid var(--senary-color);
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Pridi', serif;;
+        color: var(--tertiary-color);
+        text-decoration: none;
+        padding:  0.8rem 1rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        display: block;
+        width: 60%;
+    }
+
+    .sobre-col-center h4 {
+        font-size: 3rem;
+    }
+    
+    .sobre-col-center p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .sobre-col-center img {
+        width: 130px;
+    }
+    
+    .etapas-reproducao h4 {
+        font-size: 3rem;
+    }
+
+    .etapa-col-center {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 3rem;
+        justify-content: space-evenly;
+    }
+
+    .etapa-col-center img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .etapa-col-center h5 {
+        width: 70%;
+        font-size: 2.5rem;
+        margin: 0 0 3rem;
+    }
+
+    .etapa-col-center p {
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    /* Formulário */
     html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
         margin: 0 auto;
     }
 
+    .cog-button__text {
+        font-size: 1.5rem !important;
+    }
+
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 50% !important;
+    }
+
+    /*Logomarcas Claro e Escuro */
     #desktop {
         display: none;
     }
 
     #mobile {
         display: block;
-        margin: 0 auto;
+        margin: 1rem 2rem;
+        width: 30%;
     }
 
+    /* Menu Dropdown */
     #dropdown {
         display: block;
+        font-size: 4rem;
+        padding: 2rem;
+        width: 100%;
+        color: var(--tertiary-color);
     }
-
-    .dropdown-item {
-        display: none;
-    }
-
+    
     #bt_menu:checked ~ .dropdown-item{
-        display: block;
+        display: block !important;
         margin: 0 auto;
-        }
-         
-       .dropdown-item{
+        width: 100%;
+    }
+
+    .dropdown-item{
+        display: none !important;
+    }
+
+    #bt_menu:checked ~ #mobile {
+        display: none !important;
+    }
+
+    /* Responsividade Pontas */
+    header {
         display: none;
-        }
+    }    
+
+    header img {
+        display: none;
+    }
+
+    header h1 {
+        width: auto;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* Banner Celular */
+    .banner {
+        background-image: url(../img/Fotos/hotshot-vertical-01.JPG);
+        padding: 130px 0px;
+    }
+
+    .banner .caption {
+        margin-top: 30rem;
+    }
+
+    /*Logomarca Celular*/
+    #mobile {
+        width: 50%;
+    }
+
+    .etapa-col-center p {
+        text-align: center;
+    }
+
+    #saiba-mais {
+        width: 50%;
+    }
+
+    /* Formulário */
+    html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+        width: 95% !important;
+    }
+    
 }
