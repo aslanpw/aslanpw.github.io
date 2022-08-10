@@ -159,73 +159,95 @@
         font-size: 2rem;
     }
 
-    section article nav {
+    /* Sub-menu Paginas extras */
+    #titulo-page {
+        color: var(--octonary-color);
+        border-top: 1px solid var(--octonary-color);
+        border-bottom: 1px solid var(--octonary-color);
+    }
+    
+    #titulo-page h1 {
+        font-size: 5rem !important;
+        font-weight: 600;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    /* BreadCombs */
+    ol {
+        list-style-type: square;
+    }
+
+    article nav {
         display: block;
         background-color: transparent;
     }
 
-    section article nav ol li {
+    article nav ol li {
         padding: 2rem;
         margin-left: 3rem;
         color: var(--senary-color);
     }
 
-    section article nav ol {
+    article nav ol {
         display: flex;
-        list-style-type: square;
         padding-left: 1.5rem;
+        justify-content: start;
     }
 
-    section article nav ol a li {
+    article nav ol li {
         padding: 2rem;
         margin-left: 3rem;
         list-style-type: square;
         color: var(--quinary-color);
+        font-size: 1.7rem;
     }
 
-    section article nav ol li a {
+    article nav ol a {
         color: var(--quinary-color);
+    }
+
+    article nav ol a:hover {
+        color: var(--quaternary-color) !important;
+    }
+
+    .atual {
+        color: var(--senary-color);
     }
 
     nav a {
         text-decoration: none;
         color: var(--tertiary-color);
         font-weight: 400;
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 
     nav a:hover {
         color: var(--tertiary-color);
     }
 
+    /* Navegação Lateral */
     .nav-lateral {
         display: block;
         background-color: transparent;
-        width: 25%;
-        margin-left: 6.3rem;
     }
 
-    section .nav-lateral nav ul {
+    .nav-lateral nav ul {
         display: block;
+        padding: 0;
     }
 
-    section .nav-lateral  nav ul li {
-        width: 89%;
-        text-align: center;
-        padding: 2rem;
+    .nav-lateral  nav ul li {
         background-color: var(--secondary-color);
-        margin: 1rem 0 2rem 0;
-        font-size: 20px;
+        font-size: 2rem;
     }
 
-    section .nav-lateral nav ul li:hover {
+    .nav-lateral nav ul li:hover {
         background-color: var(--quaternary-color);
     }
 
     .nav-lateral h2 {
         color: var(--senary-color);
-        margin: 2rem 0 2rem 0;
-        width: 84%;
         font-size: 30px;
         font-weight: 500;
     }
@@ -236,51 +258,34 @@
         justify-content: space-between;
     }
 
-    .main-col-4 {
-        width: 70%;
-        padding: 0 5rem 0 5rem;
-        margin: 0 auto;
-    }
-
-    .main-col-4 p {
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-    }
-
-    .main-col-4 ol li p{
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-    }
-
-    .main-col-4 h2 {
-        color: var(--senary-color);
-        font-size: 5rem;
+    .main-content h2 {
+        font-size: 3rem;
+        text-align: center;
         margin-bottom: 2rem;
-        font-weight: 500;
     }
 
-    .main-col-4 h3 {
-        color: var(--senary-color);
-        font-size: 23px;
-        font-weight: 500;
-        line-height: 10rem;
+    .titulo h2 {
+        font-size: 4rem !important;
     }
 
-    .main-col-4 h4 {
-        color: var(--tertiary-color);
-        font-size: 23px;
-        font-weight: 300;
-        line-height: 5rem;
-        margin-top: 2rem;
-        background-color: var(--septenary-color);
-        padding-left: 1rem;
-    }
-
-    .main-col-4 img {
-        width: 100%;
+    .main-content h3 {
+        font-size: 3.5rem;
+        text-align: start;
         margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+    .main-content h4 {
+        line-height: 2rem;
+        margin: 5rem 0 3rem 0;
+        font-size: 2.5rem;
+        text-align: start;
+    }
+
+    .main-content p {
+        font-size: 2rem;
+        line-height: 25px;
+        text-align: justify;
     }
 
     footer {
@@ -521,6 +526,14 @@
     #saiba-mais {
         width: 25%;
     }
+
+    .titulo h2 {
+        font-size: 3.5rem !important;
+    }
+
+    .main-content p {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -548,6 +561,10 @@
         font-size: 1.6rem;
     }
 
+    article nav ol {
+        justify-content: center;
+    }
+    
     .pre-header {
         display: none;
     }
@@ -558,37 +575,47 @@
 
     .main-content {
         display: block;
+        text-align: center;
     }
 
-    .barra-title h1 {
-        width: auto;
+    .main-content h2 {
+        font-size: 3rem;
         text-align: center;
+        margin-bottom: 2rem;
+    } 
+
+    .main-content h3 {
+        font-size: 2.5rem;
+        text-align: start;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+    .main-content h4 {
+        line-height: 2rem;
+        margin: 5rem 0 3rem 0;
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .main-content p {
+        font-size: 1.7rem;
+        line-height: 25px;
+        text-align: justify;
+    }    
+
+    .titulo h2 {
+        font-size: 3rem;
+    }
+
+    .nav-lateral nav ul li {
+        font-size: 1.7rem;
     }
 
     .nav-lateral {
         width: auto;
         margin: 0 auto;
         padding: 2rem;
-    }
-
-    .main-col-4 p {
-        font-size: 15px;
-        line-height: 25px;
-    }
-   
-    .main-col-4 ol li p {
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .main-col-4 h4 {
-        line-height: 3rem;
-        margin: 2rem 0 2rem 0;
-        font-size: 20px;
-    }
-
-    .main-col-4 h2 {
-        font-size: 3rem;
     }
 
     .form-article p {
@@ -745,6 +772,22 @@
     /*Logomarca Celular*/
     #mobile {
         width: 50%;
+    }
+
+    .marcador a {
+        font-size: 1.5rem;
+    }
+
+    .atual {
+        font-size: 1.5rem;
+    }
+
+    article nav ol li {
+        padding: 1rem 1rem 1rem 0;
+        margin-left: 2rem;
+        list-style-type: square;
+        color: var(--quinary-color);
+        font-size: 1.5rem;
     }
 
     .etapa-col-center p {
