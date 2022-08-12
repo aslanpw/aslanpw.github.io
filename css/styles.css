@@ -215,6 +215,35 @@
         color: var(--senary-color);
     }
 
+    .info a {
+        font-size: 1.5rem;
+        background-color: var(--secondary-color);
+    }
+
+    .info a:hover {
+        background-color: var(--quaternary-color);
+        border: var(--quaternary-color);
+    }
+
+    /* Estilo Modal */
+    .modal-body p {
+        font-size: 2rem;
+    }
+
+    .modal-body h6 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .modal-content {
+        width: 50vw !important;
+        margin: 0 auto !important;
+    }
+
+    .modal-dialog {
+        max-width: none !important;
+    }
+
     nav a {
         text-decoration: none;
         color: var(--tertiary-color);
@@ -515,6 +544,10 @@
         display: flex;
         padding-bottom: 3rem;
     }
+
+    .modal-content {
+        width: 60vw !important;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -533,6 +566,10 @@
 
     .main-content p {
         font-size: 1.7rem;
+    }
+
+    .modal-content {
+        width: 70vw !important;
     }
 }
 
@@ -755,6 +792,10 @@
     footer {
         font-size: 12px;
     }
+
+    .modal-content {
+        width: 80vw !important;
+    }
 }
 
 @media (max-width: 425px) {
@@ -801,6 +842,10 @@
     /* Formulário */
     html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
         width: 95% !important;
+    }
+
+    .modal-content {
+        width: 90vw !important;
     }
     
 }
