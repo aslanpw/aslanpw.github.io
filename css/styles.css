@@ -127,6 +127,52 @@
         
     }
 
+    .destaque {
+        font-weight: normal;
+    }
+
+    .margin-topico {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    .referencias {
+        text-decoration: none;
+        color: #625215;
+    }
+
+    .referencias:hover {
+        color: #757cd1 !important;
+    }
+
+    .esconde-mobile {
+        display: flex;
+    }
+
+    .mostra-mobile {
+        display: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%; 
+        font-size: 1.5rem; 
+        text-align: center;
+        background-color: #f3f3f3;
+        margin: 5rem 0;
+      }
+    
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        border-width: initial !important;
+        border-style: double !important;
+      }
+
+      .cabecalho {
+        background-color: #b2a574;
+      }
+
     /* Banner Principal */
     .banner {
         background-image: url(../img/Fotos/baby-luna-01.jpg);
@@ -172,6 +218,36 @@
         padding: 2rem;
         margin: 0;
     }
+
+    .drop_color li {
+        background-color: #605d51 !important;
+        margin: 1rem 0;
+        border-top: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .drop_color li:hover {
+        background-color: var(--quaternary-color) !important;
+    }
+
+    .bt_drop button:after {
+        content: ' \025BC';
+        font-size: 1.5rem;
+    }
+
+    .show-image-button {
+        background: #545454;
+        border: none;
+        color: #f3f3f3;
+        padding: 0.5rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .show-image-button:after {
+        content: ' \025BC';
+        font-size: 1.5rem;
+    }
+    
 
     /* BreadCombs */
     ol {
@@ -266,7 +342,7 @@
         padding: 0;
     }
 
-    .nav-lateral  nav ul li {
+    .nav-lateral  nav ul li, .nav-lateral .bt_drop {
         background-color: var(--secondary-color);
         font-size: 2rem;
     }
@@ -279,6 +355,12 @@
         color: var(--senary-color);
         font-size: 30px;
         font-weight: 500;
+    }
+
+    .nav-lateral .bt_drop button {
+        background: transparent;
+        border: none;
+        color: var(--tertiary-color);
     }
 
     .main-content {
@@ -301,7 +383,6 @@
         font-size: 3.5rem;
         text-align: start;
         margin-bottom: 2rem;
-        margin-top: 4rem;
     }
 
     .main-content h4 {
@@ -356,6 +437,183 @@
         line-height: 30px;
         margin: 3rem 0 0;
     }
+
+    .construcao h1 {
+        font-size: 3rem;
+        margin: auto;
+    }
+
+    .construcao {
+        margin: auto;
+        display: grid;
+        margin-top: 8rem;
+    }
+
+    .construcao img {
+        width: 20rem;
+        margin: auto;
+    }
+
+    /* Calculadora */
+
+    #CalculadoraPelagem {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.7rem;
+        padding-top: 4rem;
+        --select-border: #777;
+        --select-focus: blue;
+        --select-arrow: var(--select-border)
+    }
+    
+    #CalculadoraPelagem #ProgenitoresSection {
+        display: flex;
+        max-width: 100%
+    }
+    
+    #CalculadoraPelagem #MaeSection,#CalculadoraPelagem #PaiSection {
+        padding-right: 1em
+    }
+    
+    #CalculadoraPelagem #ProbabilidadesSection {
+        max-width: 50%;
+        justify-content: center
+    }
+    
+    @media (max-width: 1024px) {
+        #CalculadoraPelagem {
+            flex-direction:column
+        }
+    
+        #CalculadoraPelagem #ProgenitoresSection,#CalculadoraPelagem #ProbabilidadesSection {
+            max-width: 100%
+        }
+    }
+    
+    
+    #CalculadoraPelagem #MaeErrorSection,#PaiErrorSection {
+        color: #dc3545;
+        max-width: 30ch;
+        display: block;
+        text-align: justify;
+    }
+    
+    #CalculadoraPelagem *,#CalculadoraPelagem ::after,#CalculadoraPelagem ::before {
+        box-sizing: border-box
+    }
+    
+    #CalculadoraPelagem select {
+        border: 1px solid var(--select-border);
+        border-radius: .25em;
+        padding: .25em .5em;
+        margin: 0;
+        width: 100%;
+        min-width: 15ch;
+        max-width: 30ch;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: 1.1;
+        outline: 0;
+        cursor: pointer;
+        background-color: #fff;
+        background-image: linear-gradient(to top,#f9f9f9,#fff 33%)
+    }
+    
+    #CalculadoraPelagem select::-ms-expand {
+        display: none
+    }
+    
+    #CalculadoraPelagem .hccc-container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        padding-bottom: 20px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+    
+    #CalculadoraPelagem .hccc-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer
+    }
+    
+    #CalculadoraPelagem .hccc-checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 30%
+    }
+    
+    #CalculadoraPelagem .hccc-container:hover input~.hccc-checkmark {
+        background-color: #ccc
+    }
+    
+    #CalculadoraPelagem .hccc-container input:checked~.hccc-checkmark {
+        background-color: #e0aa11
+    }
+    
+    #CalculadoraPelagem .hccc-checkmark:after {
+        content: "";
+        position: absolute;
+        display: none
+    }
+    
+    #CalculadoraPelagem .hccc-container input:checked~.hccc-checkmark:after {
+        display: block
+    }
+    
+    #CalculadoraPelagem .hccc-container .hccc-checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: 0 0
+    }
+    
+    #CalculadoraPelagem .hccc-collapsible {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: 0;
+        background: 0 0;
+        padding: 0;
+        font-size: 1.2em;
+        font-weight: 500
+    }
+    
+    #CalculadoraPelagem .hccc-content {
+        background-color: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease-out
+    }
+    
+    #CalculadoraPelagem .hccc-content p {
+        margin: 0
+    }
+    
+    #CalculadoraPelagem .hccc-collapsible:after {
+        content: ' \025B2'
+    }
+    
+    #CalculadoraPelagem .hccc-active:after {
+        content: ' \025BC'
+    }
+
+    .hidden {
+        display: none;
+    }
+    
 
     /* Formulário */
     .form-article {
@@ -516,6 +774,34 @@
         margin: 4rem 0 9rem;
     }
 
+    .banner-calculadora h3, .banner-calculadora p { 
+        color: var(--tertiary-color); 
+        margin: 0;
+    }
+
+    .banner-calculadora p {
+        text-align: justify;
+    }
+
+    .banner-calculadora h3 {
+        text-align: center;
+    }
+
+    .banner-calculadora img {
+        width: 20rem;
+    }
+
+    .banner-calculadora {
+        background-color: #2e2e2e; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .margin-x-5 {
+        padding: 0 3rem;
+    }
+
 @media (max-width: 1440px) {
     header h1 { 
         width: 25%;
@@ -571,6 +857,15 @@
     .modal-content {
         width: 70vw !important;
     }
+
+    #ProgenitoresSection {
+        justify-content: center;
+    }
+
+    #CalculadoraPelagem #MaeSection,#CalculadoraPelagem #PaiSection {
+        padding-right: 0;
+        padding: 0 1rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -625,7 +920,6 @@
         font-size: 2.5rem;
         text-align: start;
         margin-bottom: 2rem;
-        margin-top: 4rem;
     }
 
     .main-content h4 {
@@ -727,6 +1021,24 @@
         line-height: 3rem;
     }
 
+    .banner-calculadora h3, .banner-calculadora p {
+        margin: auto;
+        width: 100% !important;
+    }
+
+    .banner-calculadora h3 {
+        text-align: center;
+    }
+
+    .banner-calculadora p {
+        padding: 3rem 0;
+    }
+
+    .banner-calculadora {
+        display: block;
+        padding: 0;
+    }
+
     /* Formulário */
     html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
         margin: 0 auto;
@@ -798,7 +1110,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     /* Banner Celular */
     .banner {
@@ -839,6 +1151,14 @@
         width: 50%;
     }
 
+    .esconde-mobile {
+        display: none;
+    }
+
+    .mostra-mobile {
+        display: flex;
+    }
+
     /* Formulário */
     html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
         width: 95% !important;
@@ -847,5 +1167,22 @@
     .modal-content {
         width: 90vw !important;
     }
+
+    #CalculadoraPelagem #ProgenitoresSection {
+        display: block !important;
+        padding: 0px 3.5rem;
+    }
+
+    .banner-calculadora {
+        display: block;
+        padding: 3rem 0;
+    }
     
+    .banner-calculadora img {
+        margin: auto;
+    }
+
+    .banner-calculadora div {
+        margin: auto;
+    }
 }
