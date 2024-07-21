@@ -2813,6 +2813,8 @@
 
                 const results = PelagemPrincipal.calculaPelo(n, l);
 
+                //Mapeamento das imagens
+                
                 const colorToImageUrl = {
                     "Alazão (Sorrel)": "https://cdn.grupolance.com.br/batches/b2/19286/bfc3db329edf15f5affe0ba9bc98e51b.jpg",
                     "Castanho": "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia25135/cavalo-pelagem-cpt.jpg",

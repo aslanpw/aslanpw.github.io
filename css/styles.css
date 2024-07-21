@@ -802,6 +802,10 @@
         padding: 0 3rem;
     }
 
+    .isola-carrousel {
+        margin: 5rem auto;
+    }
+
 @media (max-width: 1440px) {
     header h1 { 
         width: 25%;
