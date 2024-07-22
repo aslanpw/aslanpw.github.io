@@ -156,7 +156,7 @@
     table {
         border-collapse: collapse;
         width: 100%; 
-        font-size: 1.5rem; 
+        font-size: 1.7rem; 
         text-align: center;
         background-color: #f3f3f3;
         margin: 5rem 0;
@@ -167,6 +167,11 @@
         padding: 8px;
         border-width: initial !important;
         border-style: double !important;
+        vertical-align: middle;
+      }
+
+      td {
+        text-align: justify;
       }
 
       .cabecalho {
@@ -452,6 +457,14 @@
     .construcao img {
         width: 20rem;
         margin: auto;
+    }
+
+    .imagem-lado {
+        display: flex;
+    }
+
+    .imagem-lado img {
+        padding: 2rem;
     }
 
     /* Calculadora */
@@ -804,6 +817,17 @@
 
     .isola-carrousel {
         margin: 5rem auto;
+    }
+
+    .owl-nav {
+        font-size: 2rem;
+        background-color: #b2a574;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .owl-nav .owl-prev, .owl-nav .owl-next {
+        margin: 0 5rem;
     }
 
 @media (max-width: 1440px) {
@@ -1188,5 +1212,13 @@
 
     .banner-calculadora div {
         margin: auto;
+    }
+
+    .imagem-lado {
+        display: block;
+    }
+
+    .owl-nav {
+        display: none;
     }
 }
