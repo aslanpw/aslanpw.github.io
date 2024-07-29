@@ -2820,6 +2820,7 @@
                     "Castanho": "https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia25135/cavalo-pelagem-cpt.jpg",
                     "Preto": "https://img.olx.com.br/images/32/322349141588317.jpg",
                     "Palomino": "https://i.pinimg.com/736x/87/99/c4/8799c4f65aaf1ce3f993e3294c8a2484--beautiful-horses-horse-stuff.jpg",
+                    "Baio": "https://i.pinimg.com/736x/93/8f/e5/938fe53895610e22d5100d42ff0c89b6.jpg",
                     // Adicione mais mapeamentos de cor para URL conforme necessário
                 };
 
