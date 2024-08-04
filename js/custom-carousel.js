@@ -4,6 +4,7 @@
 jQuery(function($){
 
     $('.owl-carousel').owlCarousel();
+    $('.owl-carousel-cabecalho').owlCarouseltitulo();
 
     let titulos  = $('h4') // tag
 
@@ -26,6 +27,10 @@ jQuery(function($){
     
     $('#bt_dropdown_diluicoes').click(function() {
       $('#drop_lateral_diluicoes').slideToggle();
+    });
+
+    $('#bt_dropdown_padroes').click(function() {
+      $('#drop_lateral_padroes').slideToggle();
     });
 
     $('.hccc-collapsible').click(function() {

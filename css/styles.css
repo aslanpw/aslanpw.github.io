@@ -1115,13 +1115,13 @@
         color: var(--tertiary-color);
     }
     
-    #bt_menu:checked ~ .dropdown-item{
+    #bt_menu:checked ~ .dropdown-item {
         display: block !important;
         margin: 0 auto;
         width: 100%;
     }
 
-    .dropdown-item{
+    #main-menu .dropdown-item{
         display: none !important;
     }
 
