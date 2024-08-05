@@ -21,6 +21,10 @@ jQuery(function($){
     //Pelagens
     $('.init-hide').hide();
 
+    $('#bt_dropdown_cor_marcacoes').click(function() {
+      $('#drop_lateral_cor_marcacoes').slideToggle();
+    });
+
     $('#bt_dropdown_cor_base').click(function() {
         $('#drop_lateral_cor_base').slideToggle();
       });
@@ -31,6 +35,9 @@ jQuery(function($){
 
     $('#bt_dropdown_padroes').click(function() {
       $('#drop_lateral_padroes').slideToggle();
+    });
+    $('#bt_dropdown_kit').click(function() {
+      $('#drop_lateral_kit').slideToggle();
     });
 
     $('.hccc-collapsible').click(function() {

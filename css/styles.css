@@ -127,6 +127,14 @@
         
     }
 
+    .sub-dropdown-color li {
+        background-color: #b2a574 !important;
+    }
+
+    .sub-dropdown-color li:hover {
+        background-color: #2e2e2e !important;
+    }
+
     .destaque {
         font-weight: normal;
     }
@@ -246,14 +254,14 @@
     }
 
     .drop_color li {
-        background-color: #605d51 !important;
+        background-color: #605d51;
         margin: 1rem 0;
         border-top: 1px solid var(--primary-color);
         border-bottom: 1px solid var(--primary-color);
     }
 
     .drop_color li:hover {
-        background-color: var(--quaternary-color) !important;
+        background-color: var(--quaternary-color);
     }
 
     .bt_drop button:after {
@@ -368,7 +376,7 @@
         padding: 0;
     }
 
-    .nav-lateral  nav ul li, .nav-lateral .bt_drop {
+    .nav-lateral nav ul #base-color, .nav-lateral .bt_drop #base-color {
         background-color: var(--secondary-color);
         font-size: 2rem;
     }
