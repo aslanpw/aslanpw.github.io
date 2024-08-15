@@ -182,6 +182,10 @@
         text-align: justify;
       }
 
+      .td-center td {
+        text-align:center
+      }
+
       p {
         word-wrap: break-word;
       }
@@ -322,6 +326,10 @@
     }
 
     .atual {
+        color: var(--senary-color);
+    }
+
+    .atual-titulo {
         color: var(--senary-color);
     }
 
@@ -530,6 +538,14 @@
     
         #CalculadoraPelagem #ProgenitoresSection,#CalculadoraPelagem #ProbabilidadesSection {
             max-width: 100%
+        }
+
+        .imagem-lado {
+            display: block;
+        }
+    
+        .imagem-lado div {
+            width: 100%;
         }
     }
     
@@ -1165,7 +1181,10 @@
     .modal-content {
         width: 80vw !important;
     }
+
 }
+
+
 
 @media (max-width: 426px) {
 
