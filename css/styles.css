@@ -504,6 +504,28 @@
         padding: 2rem;
     }
 
+    .p-borda p {
+        padding: 2rem;
+    }
+
+    .img-dupla-lado {
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .img-dupla-lado img, .img-dupla-lado p {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .sub-item-p {
+        margin-left: 3rem;
+    }
+
     /* Calculadora */
 
     #CalculadoraPelagem {
@@ -1276,5 +1298,13 @@
 
     .owl-nav {
         display: none;
+    }
+
+    .img-dupla-lado {
+        display: block;
+    }
+
+    .img-dupla-lado img, .img-dupla-lado p {
+        width: 100%;
     }
 }

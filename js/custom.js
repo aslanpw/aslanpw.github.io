@@ -2785,7 +2785,7 @@
         let $ = document.createElement("h2");
         ($.innerHTML = "Probabilidade de Pelagens"), A.appendChild($);
         let N = document.createElement("p");
-        (N.innerHTML = "Abaixo estão as possíveis probabilidades de cores de pelagem da prole, determinadas utilizando as informações fornecidas sobre os pais no painel à esquerda. <br><br>Para obter uma estimativa mais precisa, forneça o máximo de informações genéticas de cor dos pais, sendo que quanto mais detalhes genéticos forem conhecidos, mais preciso será o cálculo."), A.appendChild(N);
+        (N.innerHTML = "Abaixo estão as possíveis probabilidades de cores de pelagem da prole, determinadas utilizando as informações fornecidas sobre os pais. <br><br>Para obter uma estimativa mais precisa, forneça o máximo de informações genéticas de cor dos pais, sendo que quanto mais detalhes genéticos forem conhecidos, mais preciso será o cálculo."), A.appendChild(N);
         let w = document.createElement("span");
         (w.id = "ProbabilidadesSectionBody"), A.appendChild(w);
         let D = document.createElement("span");
