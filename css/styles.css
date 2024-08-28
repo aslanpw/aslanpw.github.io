@@ -526,6 +526,18 @@
         margin-left: 3rem;
     }
 
+    .not-mobile-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .animal-image {
+        margin-bottom: 3rem;
+    }
+
     /* Calculadora */
 
     #CalculadoraPelagem {
@@ -569,6 +581,15 @@
         .imagem-lado div {
             width: 100%;
         }
+
+        .not-mobile-only {
+            display: none;
+        }
+    
+        .mobile-only {
+            display: block;
+        }
+    
     }
     
     
