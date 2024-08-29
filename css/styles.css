@@ -538,6 +538,29 @@
         margin-bottom: 3rem;
     }
 
+    .conteudo-sensivel {
+        width: 100%;
+        font-family: 'Pridi', serif !important;    
+        background-color: var(--senary-color) !important;
+        color: var(--secondary-color);
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: bold;
+        border: none;
+    }
+
+    .alerta-conteudo, .alerta-conteudo p, .alerta-conteudo h5 {
+        width: 100%;
+        font-family: 'Pridi', serif !important;    
+        background-color: #95000f !important;
+        color: var(--primary-color);
+        font-size: 2rem;
+        border: none;
+        text-align: center !important;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
     /* Calculadora */
 
     #CalculadoraPelagem {

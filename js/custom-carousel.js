@@ -16,6 +16,21 @@ jQuery(function($){
 
     $('.featured-item a').addClass('btn btn-secondary stretch-link');
 
+    //conteudo sensível
+    $('#show').click(function(){
+      $('#sensivel').toggleClass('hidden');
+      $('#bt-esconde').toggleClass('hidden');
+      $('#mensagem-alerta').toggleClass('hidden');
+      $('#show').toggleClass('hidden');
+    })
+
+    $('#bt-esconde').click(function(){
+      $('#sensivel').toggleClass('hidden');
+      $('#show').toggleClass('hidden');
+      $('#mensagem-alerta').toggleClass('hidden');
+      $('#bt-esconde').toggleClass('hidden');
+    })
+
     //dropdown menus laterais
 
     //Pelagens
