@@ -5,7 +5,7 @@
             { ID: 1, Cor: "Alazão (Sorrel)", A: "A3", E: "E1", CPrl: "CPrl1", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 2, Cor: "Castanho", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 3, Cor: "Preto", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
-            { ID: 4, Cor: "Palomino", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
+            { ID: 4, Cor: "Palomino (Baio Amarilho)", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 5, Cor: "Baio", A: "A2", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 6, Cor: "Preto Esfumado", A: "A1", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 7, Cor: "Cremello", A: "A3", E: "E1", CPrl: "CPrl3", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
@@ -20,16 +20,16 @@
             { ID: 16, Cor: "Alazão Dun", A: "A3", E: "E1", CPrl: "CPrl1", Z: "Z3", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 17, Cor: "Castanho Dun (Zebra Dun)", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 18, Cor: "Lobuno (Preto Dun)", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
-            { ID: 19, Cor: "Dunalino (Palomino Dun)", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D2", R: "R1", Ch: "Ch1" },
+            { ID: 19, Cor: "Dunalino (Palomino (Baio Amarilho) Dun)", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 20, Cor: "Dunskin (Baio Dun)", A: "A2", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 21, Cor: "Lobuno Esfumado", A: "A1", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 22, Cor: "Cremello Dun", A: "A3", E: "E1", CPrl: "CPrl3", Z: "Z3", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 23, Cor: "Perlino Dun", A: "A2", E: "E2", CPrl: "CPrl3", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
-            { ID: 24, Cor: "Creme Dun Esfumado", A: "A1", E: "E2", CPrl: "CPrl3", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
+            { ID: 24, Cor: "Creme Esfumado Dun", A: "A1", E: "E2", CPrl: "CPrl3", Z: "Z1", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 25, Cor: "Rosilho de Alazão", A: "A3", E: "E1", CPrl: "CPrl1", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 26, Cor: "Rosilho de Castanho", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 27, Cor: "Rosilho Negro", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
-            { ID: 28, Cor: "Rosilho de Palomino", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
+            { ID: 28, Cor: "Rosilho de Palomino (Baio Amarilho)", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 29, Cor: "Rosilho de Baio", A: "A2", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 30, Cor: "Rosilho de Preto Esfumado", A: "A1", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 31, Cor: "Rosilho de Castanho Prateado", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z2", D: "D1", R: "R2", Ch: "Ch1" },
@@ -40,8 +40,8 @@
             { ID: 36, Cor: "Rosilho Dunalino", A: "A3", E: "E1", CPrl: "CPrl2", Z: "Z3", D: "D2", R: "R2", Ch: "Ch1" },
             { ID: 37, Cor: "Rosilho Dunskin", A: "A2", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D2", R: "R2", Ch: "Ch1" },
             { ID: 38, Cor: "Rosilho de Lobuno Esfumado", A: "A1", E: "E2", CPrl: "CPrl2", Z: "Z1", D: "D2", R: "R2", Ch: "Ch1" },
-            { ID: 39, Cor: "Castanho Dun Prateado", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
-            { ID: 40, Cor: "Lobuno Prateado (Negro Dun Prateado)", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
+            { ID: 39, Cor: "Castanho Prateado Dun", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
+            { ID: 40, Cor: "Lobuno Prateado (Negro Prateado Dun)", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 41, Cor: "Champagne Marfim", A: "A3", E: "E1", CPrl: "CPrl1", Z: "Z3", D: "D1", R: "R1", Ch: "Ch2" },
             { ID: 42, Cor: "Champagne Âmbar", A: "A2", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R1", Ch: "Ch2" },
             { ID: 43, Cor: "Champagne Clássico", A: "A1", E: "E2", CPrl: "CPrl1", Z: "Z1", D: "D1", R: "R1", Ch: "Ch2" },
@@ -61,7 +61,7 @@
             { ID: 57, Cor: "Alazão Pérola", A: "A3", E: "E1", CPrl: "CPrl4", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 58, Cor: "Castanho Pérola", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 59, Cor: "Negro Pérola", A: "A1", E: "E2", CPrl: "CPrl4", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
-            { ID: 60, Cor: "Palomino Pérola", A: "A3", E: "E1", CPrl: "CPrl5", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
+            { ID: 60, Cor: "Palomino (Baio Amarilho) Pérola", A: "A3", E: "E1", CPrl: "CPrl5", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 61, Cor: "Baio Pérola", A: "A2", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 62, Cor: "Preto Esfumado Pérola", A: "A1", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D1", R: "R1", Ch: "Ch1" },
             { ID: 63, Cor: "Ouro Pérola", A: "A3", E: "E1", CPrl: "CPrl6", Z: "Z3", D: "D1", R: "R1", Ch: "Ch1" },
@@ -85,7 +85,7 @@
             { ID: 81, Cor: "Rosilho de Alazão Pérola", A: "A3", E: "E1", CPrl: "CPrl4", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 82, Cor: "Rosilho de Castanho Pérola", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 83, Cor: "Rosilho de Negro Pérola", A: "A1", E: "E2", CPrl: "CPrl4", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
-            { ID: 84, Cor: "Rosilho de Palomino Pérola", A: "A3", E: "E1", CPrl: "CPrl5", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
+            { ID: 84, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola", A: "A3", E: "E1", CPrl: "CPrl5", Z: "Z3", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 85, Cor: "Rosilho de Baio Pérola", A: "A2", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 86, Cor: "Rosilho de Preto Esfumado Pérola", A: "A1", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D1", R: "R2", Ch: "Ch1" },
             { ID: 87, Cor: "Rosilho de Castanho Pérola Prateado", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z2", D: "D1", R: "R2", Ch: "Ch1" },
@@ -96,7 +96,7 @@
             { ID: 92, Cor: "Rosilho Dunalino Pérola", A: "A3", E: "E1", CPrl: "CPrl5", Z: "Z3", D: "D2", R: "R2", Ch: "Ch1" },
             { ID: 93, Cor: "Rosilho Dunskin Pérola", A: "A2", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D2", R: "R2", Ch: "Ch1" },
             { ID: 94, Cor: "Rosilho de Lobuno Pérola Esfumado", A: "A1", E: "E2", CPrl: "CPrl5", Z: "Z1", D: "D2", R: "R2", Ch: "Ch1" },
-            { ID: 95, Cor: "Castanho Pérola Dun Prateado", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
+            { ID: 95, Cor: "Castanho Pérola Prateado Dun", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 96, Cor: "Lobuno Pérola Prateado", A: "A1", E: "E2", CPrl: "CPrl4", Z: "Z2", D: "D2", R: "R1", Ch: "Ch1" },
             { ID: 97, Cor: "Champagne Ouro Pérola", A: "A3", E: "E1", CPrl: "CPrl4", Z: "Z3", D: "D1", R: "R1", Ch: "Ch2" },
             { ID: 98, Cor: "Champagne Âmbar Pérola", A: "A2", E: "E2", CPrl: "CPrl4", Z: "Z1", D: "D1", R: "R1", Ch: "Ch2" },
@@ -596,13 +596,13 @@
             { Codigo: "ee | AA", E: 1, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Alazão (Sorrel)" },
             { Codigo: "Ee | AA", E: 2, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho" },
             { Codigo: "EE | AA", E: 3, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho" },
-            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | aa | nCr", E: 2, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Preto Esfumado" },
             { Codigo: "EE | aa | nCr", E: 3, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Preto Esfumado" },
-            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | Aa | nCr", E: 2, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio" },
             { Codigo: "EE | Aa | nCr", E: 3, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio" },
-            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | AA | nCr", E: 2, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio" },
             { Codigo: "EE | AA | nCr", E: 3, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio" },
             { Codigo: "ee | aa | CrCr", E: 1, A: 1, CPrl: 3, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Cremello" },
@@ -623,13 +623,13 @@
             { Codigo: "ee | AA", E: 1, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Alazão (Sorrel)" },
             { Codigo: "Ee | AA", E: 2, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Prateado" },
             { Codigo: "EE | AA", E: 3, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Prateado" },
-            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | aa | nCr", E: 2, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Negro Prateado Esfumado" },
             { Codigo: "EE | aa | nCr", E: 3, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Negro Prateado Esfumado" },
-            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | Aa | nCr", E: 2, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Prateado" },
             { Codigo: "EE | Aa | nCr", E: 3, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Prateado" },
-            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino" },
+            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho)" },
             { Codigo: "Ee | AA | nCr", E: 2, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Prateado" },
             { Codigo: "EE | AA | nCr", E: 3, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Prateado" },
             { Codigo: "ee | aa | CrCr", E: 1, A: 1, CPrl: 3, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Cremello" },
@@ -704,13 +704,13 @@
             { Codigo: "ee | AA", E: 1, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Alazão" },
             { Codigo: "Ee | AA", E: 2, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho" },
             { Codigo: "EE | AA", E: 3, A: 3, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho" },
-            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | aa | nCr", E: 2, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Esfumaçado" },
             { Codigo: "EE | aa | nCr", E: 3, A: 1, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Esfumaçado" },
-            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | Aa | nCr", E: 2, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio" },
             { Codigo: "EE | Aa | nCr", E: 3, A: 2, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio" },
-            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | AA | nCr", E: 2, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio" },
             { Codigo: "EE | AA | nCr", E: 3, A: 3, CPrl: 2, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio" },
             { Codigo: "ee | aa | CrCr", E: 1, A: 1, CPrl: 3, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Cremello" },
@@ -731,13 +731,13 @@
             { Codigo: "ee | AA", E: 1, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Alazão" },
             { Codigo: "Ee | AA", E: 2, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Prateado" },
             { Codigo: "EE | AA", E: 3, A: 3, CPrl: 1, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Prateado" },
-            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | aa | nCr", E: 1, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | aa | nCr", E: 2, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Esfumaçado Prateado" },
             { Codigo: "EE | aa | nCr", E: 3, A: 1, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Esfumaçado Prateado" },
-            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | Aa | nCr", E: 1, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | Aa | nCr", E: 2, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Prateado" },
             { Codigo: "EE | Aa | nCr", E: 3, A: 2, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Prateado" },
-            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino" },
+            { Codigo: "ee | AA | nCr", E: 1, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho)" },
             { Codigo: "Ee | AA | nCr", E: 2, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Prateado" },
             { Codigo: "EE | AA | nCr", E: 3, A: 3, CPrl: 2, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Prateado" },
             { Codigo: "ee | aa | CrCr", E: 1, A: 1, CPrl: 3, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Cremello" },
@@ -1028,13 +1028,13 @@
             { Codigo: "ee | AA | nPrl", E: 1, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Alazão Pérola" },
             { Codigo: "Ee | AA | nPrl", E: 2, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Pérola" },
             { Codigo: "EE | AA | nPrl", E: 3, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Pérola" },
-            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | aa | CrPrl", E: 2, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Preto Esfumado Pérola" },
             { Codigo: "EE | aa | CrPrl", E: 3, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Preto Esfumado Pérola" },
-            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | Aa | CrPrl", E: 2, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola" },
             { Codigo: "EE | Aa | CrPrl", E: 3, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola" },
-            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | AA | CrPrl", E: 2, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola" },
             { Codigo: "EE | AA | CrPrl", E: 3, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola" },
             { Codigo: "ee | aa | PrlPrl", E: 1, A: 1, CPrl: 6, Z: 1, G: 1, D: 1, R: 1, Ch: 1, Cor: "Ouro Pérola" },
@@ -1055,13 +1055,13 @@
             { Codigo: "ee | AA | nPrl", E: 1, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Alazão Pérola" },
             { Codigo: "Ee | AA | nPrl", E: 2, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Pérola Prateado" },
             { Codigo: "EE | AA | nPrl", E: 3, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Castanho Pérola Prateado" },
-            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | aa | CrPrl", E: 2, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Negro Pérola Esfumaçado Prateado" },
             { Codigo: "EE | aa | CrPrl", E: 3, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Negro Pérola Esfumaçado Prateado" },
-            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | Aa | CrPrl", E: 2, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola Prateado" },
             { Codigo: "EE | Aa | CrPrl", E: 3, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola Prateado" },
-            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino Pérola" },
+            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | AA | CrPrl", E: 2, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola Prateado" },
             { Codigo: "EE | AA | CrPrl", E: 3, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Baio Pérola Prateado" },
             { Codigo: "ee | aa | PrlPrl", E: 1, A: 1, CPrl: 6, Z: 2, G: 1, D: 1, R: 1, Ch: 1, Cor: "Ouro Pérola" },
@@ -1136,13 +1136,13 @@
             { Codigo: "ee | AA | nPrl", E: 1, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Alazão Pérola" },
             { Codigo: "Ee | AA | nPrl", E: 2, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Pérola" },
             { Codigo: "EE | AA | nPrl", E: 3, A: 3, CPrl: 4, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Pérola" },
-            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | aa | CrPrl", E: 2, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Pérola Esfumaçado" },
             { Codigo: "EE | aa | CrPrl", E: 3, A: 1, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Pérola Esfumaçado" },
-            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | Aa | CrPrl", E: 2, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola" },
             { Codigo: "EE | Aa | CrPrl", E: 3, A: 2, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola" },
-            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | AA | CrPrl", E: 2, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola" },
             { Codigo: "EE | AA | CrPrl", E: 3, A: 3, CPrl: 5, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola" },
             { Codigo: "ee | aa | PrlPrl", E: 1, A: 1, CPrl: 6, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Ouro Pérola" },
@@ -1163,13 +1163,13 @@
             { Codigo: "ee | AA | nPrl", E: 1, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Alazão Pérola" },
             { Codigo: "Ee | AA | nPrl", E: 2, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Pérola Prateado" },
             { Codigo: "EE | AA | nPrl", E: 3, A: 3, CPrl: 4, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Castanho Pérola Prateado" },
-            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | aa | CrPrl", E: 1, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | aa | CrPrl", E: 2, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Pérola Esfumaçado Prateado" },
             { Codigo: "EE | aa | CrPrl", E: 3, A: 1, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro Pérola Esfumaçado Prateado" },
-            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | Aa | CrPrl", E: 1, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | Aa | CrPrl", E: 2, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola Prateado" },
             { Codigo: "EE | Aa | CrPrl", E: 3, A: 2, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola Prateado" },
-            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino Pérola" },
+            { Codigo: "ee | AA | CrPrl", E: 1, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Palomino (Baio Amarilho) Pérola" },
             { Codigo: "Ee | AA | CrPrl", E: 2, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola Prateado" },
             { Codigo: "EE | AA | CrPrl", E: 3, A: 3, CPrl: 5, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Baio Pérola Prateado" },
             { Codigo: "ee | aa | PrlPrl", E: 1, A: 1, CPrl: 6, Z: 2, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Ouro Pérola" },
@@ -2815,196 +2815,37 @@
 
                 //Mapeamento das imagens
                 
+                const defaultImageUrl = "./img/Fotos/Calculadora/Construcao.jpg";
+
                 const colorToImageUrl = {
-                    "Alazão (Sorrel)": "./img/Fotos/Calculadora/Alazão.jpg" // ok!
-                    ,"Castanho": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Preto": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Palomino": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Baio": "./img/Fotos/Calculadora/Baio.jpg" //ok!
-                    ,"Lobuno": "./img/Fotos/Calculadora/Lobuno.jpg" //ok!
-                    ,"Preto Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Cremello": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Perlino": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Creme Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Negro Prateado (Silver Dapple)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Baio Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Preto Esfumado Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Perlino Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Creme Esfumado Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Alazão Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Dun (Zebra Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Dunalino": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Dunskin (Baio Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Lobuno Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Cremello Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Perlino Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Creme Dun Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Alazão": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho Negro": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Palomino": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Baio": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Preto Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Negro Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Alazão Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Lobuno": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho Dunalino": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho Dunskin": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Lobuno Esfumado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Dun Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Lobuno Prateado (Negro Dun Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Marfim": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Marfim Creme": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar Creme": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico Creme": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Marfim Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Marfim Creme Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar Creme Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico Creme Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Âmbar Creme Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Champagne Clássico Creme Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Alazão Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Negro Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Palomino Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Baio Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Preto Esfumado Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Ouro Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Âmbar Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Pérola Clássico": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Negro Pérola Prateado (Silver Dapple)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Baio Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Preto Esfumado Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Âmbar Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Pérola Clássico Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Alazão Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Castanho Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Lobuno Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Dunalino Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Dunskin Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Lobuno Esfumado Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Ouro Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Âmbar Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Pérola Clássico Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Alazão Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Negro Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Palomino Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Baio Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Preto Esfumado Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Negro Pérola Prateado": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Alazão Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Castanho Pérola Dun": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho de Lobuno Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho Dunalino Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Rosilho Dunskin Pérola": "./img/Fotos/Calculadora/Construcao.jpg"
+                    "Alazão (Sorrel)": "./img/Fotos/Calculadora/Alazao.jpg"
+                    ,"Castanho": "./img/Fotos/Calculadora/Castanho.jpg"
+                    ,"Preto": "./img/Fotos/Calculadora/Preto.jpg"
+                    ,"Palomino (Baio Amarilho)": "./img/Fotos/Calculadora/Palomino.jpg"
+                    ,"Baio": "./img/Fotos/Calculadora/Baio.jpg"
+                    ,"Preto Esfumado": "./img/Fotos/Calculadora/Preto-Esfumado.jpg"
+                    ,"Cremello": "./img/Fotos/Calculadora/Cremello.jpg"
+                    ,"Perlino": "./img/Fotos/Calculadora/Perlino.jpg"
+                    ,"Creme Esfumado": "./img/Fotos/Calculadora/Creme-Esfumado.jpg"
+                    //"Castanho Prateado"
+                    ,"Negro Prateado": "./img/Fotos/Calculadora/Negro-Prateado.jpg"
+
+                    ,"Lobuno": "./img/Fotos/Calculadora/Lobuno.jpg"
+
+                    /* Tobianos */
+
+                    ,"Preto Tobiano": "./img/Fotos/Calculadora/Preto-Tobiano.jpg"
+                    ,"Alazão (Sorrel) Tobiano": "./img/Fotos/Calculadora/Alazao-Tobiano.jpg"
+                    ,"Castanho Tobiano": "./img/Fotos/Calculadora/Castanho-Tobiano.jpg"
+                    ,"Palomino (Baio Amarilho) Tobiano": "./img/Fotos/Calculadora/Palomino-Tobiano.jpg"
+                    ,"Baio Tobiano": "./img/Fotos/Calculadora/Baio-Tobiano.jpg"
+                    ,"Preto Esfumado Tobiano": "./img/Fotos/Calculadora/Preto-Esfumado-Tobiano.jpg"
+                    ,"Champagne Clássico Tobiano": "./img/Fotos/Calculadora/Champagne-Classico-Tobiano.jpg"
                     
                     /* Tordilhos */
-                    
-                    ,"Tordilho (Alazão (Sorrel))": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Preto)": "./img/Fotos/Calculadora/Tordilho-Negro.jpg" //ok
-                    ,"Tordilho (Palomino)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Baio)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Preto Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Cremello)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Perlino)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Creme Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Negro Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Baio Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Preto Esfumado Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Perlino Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Creme Esfumado Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Alazão Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Dun (Zebra Dun))": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Lobuno (Preto Dun))": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Dunalino (Palomino Dun))": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Dunskin (Baio Dun))": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Lobuno Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Cremello Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Perlino Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Creme Dun Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Alazão)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho Negro)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Palomino)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Baio)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Preto Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Negro Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Alazão Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Lobuno)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho Dunalino)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho Dunskin)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Lobuno Esfumado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Prateado Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Lobuno Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Marfim)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Marfim Creme)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar Creme)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico Creme)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Marfim Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Marfim Creme Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar Creme Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico Creme Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Âmbar Creme Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Champagne Clássico Creme Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Alazão Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Negro Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Palomino Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Baio Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Preto Esfumado Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Ouro Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Âmbar Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Pérola Clássico)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Negro Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Baio Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Preto Esfumado Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Âmbar Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Pérola Clássico Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Alazão Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Castanho Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Lobuno Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Dunalino Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Dunskin Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Lobuno Esfumado Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Ouro Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Âmbar Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Pérola Clássico Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Alazão Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Negro Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Palomino Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Baio Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Preto Esfumado Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Negro Pérola Prateado)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Alazão Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Castanho Pérola Dun)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho de Lobuno Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho Dunalino Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
-                    ,"Tordilho (Rosilho Dunskin Pérola)": "./img/Fotos/Calculadora/Construcao.jpg"
+
+                    ,"Tordilho (Preto)": "./img/Fotos/Calculadora/Tordilho-Negro.jpg"
+
                     // Adicione mais mapeamentos de cor para URL conforme necessário
                 };
 
@@ -3037,6 +2878,8 @@
 
                     if (colorToImageUrl[e.color]) {
                         imageElement.src = colorToImageUrl[e.color];
+                    } else {
+                        imageElement.src = defaultImageUrl;
                     }
 
                     let container = document.createElement("div");

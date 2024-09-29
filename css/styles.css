@@ -440,6 +440,17 @@
         text-align: justify;
     }
 
+    .portifolio {
+        background-color: #979797;
+        text-align: center;
+    }
+
+    .portifolio img {
+        max-height: 100vh;
+        width: auto;
+        object-fit: contain;
+    }
+
     footer {
         background-color: var(--secondary-color);
         font-size: 15px;
