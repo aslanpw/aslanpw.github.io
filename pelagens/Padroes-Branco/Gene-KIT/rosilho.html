@@ -1,554 +1,737 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../../css/reset.css">
-        <link rel="stylesheet" href="../../../css/styles.css">
-        <link rel="stylesheet" href="../../../vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../../vendor/owl/css/owl.css">
-        <link rel="stylesheet" href="../../../vendor/owl/css/owl-titulo.css">
-        <link rel="stylesheet" href="../../../vendor/fontawesome/fontawesome.css">
 
-        <!-- icones -->
-        <link rel="shortcut icon" href="../../../img/favicon.png">
-        <link rel="shortcut icon" href="../../../img/icon-touch-retina.png">
-        <link rel="shortcut icon" href="../../../img/icon-touch-retina-iphone.png">
-        <link rel="shortcut icon" href="../../../img/icon-touch-retina-ipad.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="../../../vendor/owl/css/owl-titulo.css">
+    <link rel="stylesheet" href="../../../vendor/fontawesome/fontawesome.css">
 
-        <!-- Fontes -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- icones -->
+    <link rel="shortcut icon" href="../../../img/favicon.png">
+    <link rel="shortcut icon" href="../../../img/icon-touch-retina.png">
+    <link rel="shortcut icon" href="../../../img/icon-touch-retina-iphone.png">
+    <link rel="shortcut icon" href="../../../img/icon-touch-retina-ipad.png">
 
-        <title>Genetics Ranch Brazil - Rosilho</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-    </head>
-    <body>
-        <div class="main-container">
-            <div class="pre-header"><h4><a href="../../../genetica.html">Sou Iniciante</a></h4></div>
-            <header>
-                <a href="../../../index.html">     
+    <title>Genetics Ranch Brazil - Rosilho</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="pre-header">
+            <h4><a href="../../../genetica.html">Sou Iniciante</a></h4>
+        </div>
+        <header>
+            <a href="../../../index.html">
                 <img src="../../../img/marca-grb-horizontal.svg" alt="GeneticsRanchBrazil" id="desktop"></a>
-                <h1>Genetic Academic Guide</h1>
-            </header>
-        
-            <nav id="main-menu">
-                <img src="../../../img/marca-grb-horizontal - DM.svg" alt="GeneticsRanchBrazil" id="mobile">
-                <ul>
-                    <input type="checkbox" id="bt_menu" />  
-                    <label for="bt_menu" id="dropdown">&#9776;</label>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../index.html">Início</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../genetica.html">Genética</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../pelagens.html">Pelagens</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../raças.html">Raças</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../noticias.html">Notícias</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../sobre-nos.html">Sobre Nós</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../contato.html">Contato</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../../calculadora.html">Calculadora</a></li>
-                </ul>
-            </nav>
+            <h1>Genetic Academic Guide</h1>
+        </header>
 
-            <article>          
-                <div class="col-12 text-center text-lg-start barra-title" id="titulo-page"><h1>Guia de Pelagens</h1></div>
-                <nav class="col-12 marcador">
-                    <ol>
-                        <li><a href="../../../index.html">Home</a></li>
-                        <li><a href="../../../pelagens.html">Pelagens</a></li>
-                        <li class="atual">Padrões de Branco</li>
-                        <li class="atual">Gene KIT: Rosilho</li>
-                    </ol>
-                </nav>
-                <div class="main-content">
-                    <div class="nav-lateral ps-lg-5 mx-lg-5 col-lg-3 col-sm-9 py-4">
-                        <h2 class="py-1">Gene KIT: Rosilho</h2>
-                        <nav>
-                            <ul class="text-center">
-                                <a href="../../../pelagens.html"><li class="p-4 my-4" id="base-color">Introdução</li></a>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_cor_base" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Cores Base
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_cor_base">
-                                        <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../../pelagens/Cor-Base/extensao.html">Gene de Extensão</a></li> 
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Cor-Base/agouti.html">Agouti</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Cor-Base/pangare.html">Pangaré (Mealy)</a></li>
-                                    </ul>
-                                </div> 
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_diluicoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Diluições e Modificadores
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_diluicoes">
-                                        <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../../pelagens/Diluicoes-Modificadores/champagne.html">Diluição: Champagne</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Diluicoes-Modificadores/creme-perola.html">Diluição: Creme + Pérola</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Diluicoes-Modificadores/silver.html">Diluição: Silver</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Diluicoes-Modificadores/mushroom.html">Diluição: Mushroom</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Diluicoes-Modificadores/dun.html">Diluição: Dun</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Diluicoes-Modificadores/tordilho.html">Modificador: Tordilho</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_padroes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Padrões de Branco
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_padroes">
-                                        <li class="dropdown-item text-center">
-                                          <div class="bt_drop p-4 sub-dropdown-color">
-                                            <button type="button" id="bt_dropdown_kit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <nav id="main-menu">
+            <img src="../../../img/marca-grb-horizontal - DM.svg" alt="GeneticsRanchBrazil" id="mobile">
+            <ul>
+                <input type="checkbox" id="bt_menu" />
+                <label for="bt_menu" id="dropdown">&#9776;</label>
+                <li class="dropdown-item py-4 text-center"><a href="../../../index.html">Início</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../genetica.html">Genética</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../pelagens.html">Pelagens</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../raças.html">Raças</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../noticias.html">Notícias</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../sobre-nos.html">Sobre Nós</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../contato.html">Contato</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../../calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="col-12 text-center text-lg-start barra-title" id="titulo-page">
+                <h1>Guia de Pelagens</h1>
+            </div>
+            <nav class="col-12 marcador">
+                <ol>
+                    <li><a href="../../../index.html">Home</a></li>
+                    <li><a href="../../../pelagens.html">Pelagens</a></li>
+                    <li class="atual">Padrões de Branco</li>
+                    <li class="atual">Gene KIT: Rosilho</li>
+                </ol>
+            </nav>
+            <div class="main-content">
+                <div class="nav-lateral ps-lg-5 mx-lg-5 col-lg-3 col-sm-9 py-4">
+                    <h2 class="py-1">Gene KIT: Rosilho</h2>
+                    <nav>
+                        <ul class="text-center">
+                            <a href="../../../pelagens.html">
+                                <li class="p-4 my-4" id="base-color">Introdução</li>
+                            </a>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_cor_base" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Cores Base
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_cor_base">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../../pelagens/Cor-Base/extensao.html">Gene de Extensão</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Cor-Base/agouti.html">Agouti</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Cor-Base/pangare.html">Pangaré (Mealy)</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_diluicoes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Diluições e Modificadores
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_diluicoes">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/champagne.html">Diluição:
+                                            Champagne</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/creme-perola.html">Diluição:
+                                            Creme + Pérola</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/silver.html">Diluição:
+                                            Silver</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/mushroom.html">Diluição:
+                                            Mushroom</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/dun.html">Diluição: Dun</a>
+                                    </li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Diluicoes-Modificadores/tordilho.html">Modificador:
+                                            Tordilho</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_padroes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Padrões de Branco
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_padroes">
+                                    <li class="dropdown-item text-center">
+                                        <div class="bt_drop p-4 sub-dropdown-color">
+                                            <button type="button" id="bt_dropdown_kit" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
                                                 Gene KIT
                                             </button>
                                             <ul class="init-hide drop_color" id="drop_lateral_kit">
-                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../../pelagens/Padroes-Branco/Gene-KIT/conceito-inicial.html">Conceito Inicial</a></li>
-                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../../pelagens/Padroes-Branco/Gene-KIT/tobiano.html">Tobiano</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/Gene-KIT/rosilho.html">Rosilho</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/Gene-KIT/branco-dominante.html">Branco Dominante</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/Gene-KIT/sabino.html">Sabino</a></li>
+                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                                        href="../../../pelagens/Padroes-Branco/Gene-KIT/conceito-inicial.html">Conceito
+                                                        Inicial</a></li>
+                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                                        href="../../../pelagens/Padroes-Branco/Gene-KIT/tobiano.html">Tobiano</a>
+                                                </li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../../pelagens/Padroes-Branco/Gene-KIT/rosilho.html">Rosilho</a>
+                                                </li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../../pelagens/Padroes-Branco/Gene-KIT/branco-dominante.html">Branco
+                                                        Dominante</a></li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../../pelagens/Padroes-Branco/Gene-KIT/sabino.html">Sabino</a>
+                                                </li>
                                             </ul>
-                                          </div>
+                                        </div>
                                     </li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/overo.html">Overo</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/splashed-white.html">Splashed White</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Padroes-Branco/appaloosa.html">Appaloosa</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                  <button type="button" id="bt_dropdown_cor_marcacoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Marcações + Olhos
-                                  </button>
-                                  <ul class="init-hide drop_color" id="drop_lateral_cor_marcacoes">
-                                      <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../../pelagens/Marcacoes-Olhos/faciais.html">Faciais</a></li>
-                                      <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Marcacoes-Olhos/membros-locomotores.html">Membros Locomotores</a></li>
-                                      <li class="dropdown-item py-4 text-center"><a href="../../../pelagens/Marcacoes-Olhos/olhos.html">Olhos</a></li>
-                                  </ul>
-                                </div>
-                            </ul>
-                        </nav>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Padroes-Branco/overo.html">Overo</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Padroes-Branco/splashed-white.html">Splashed
+                                            White</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Padroes-Branco/appaloosa.html">Appaloosa</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_cor_marcacoes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Marcações + Olhos
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_cor_marcacoes">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../../pelagens/Marcacoes-Olhos/faciais.html">Faciais</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Marcacoes-Olhos/membros-locomotores.html">Membros
+                                            Locomotores</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../../pelagens/Marcacoes-Olhos/olhos.html">Olhos</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-9 col-md-8 mx-auto px-lg-2 titulo">
+
+                    <div class="col-12 banner-calculadora my-5">
+                        <img src="../../../img/Banner-topo/Termos.svg" alt="EtapaPais">
+                        <div class="col-12 col-lg-8 margin-x-5">
+                            <h4 style="margin: 0.5rem 0 0.5rem 0; text-align: center; color: #999;">Gene KIT</h4>
+                            <h3>PADRÃO DE BRANCO: ROSILHO</h3>
+                            <p style="padding-top: 2rem;">Responsável por um padrão de pelagem caracterizado pelo
+                                interpolamento de pelos brancos com a cor base, criando um aspecto salpicado.</p>
+                        </div>
                     </div>
-                    <div class="col-9 col-md-8 mx-auto px-lg-2 titulo">
 
-                        <div class="col-12 banner-calculadora my-5">
-                            <img src="../../../img/Banner-topo/Termos.svg" alt="EtapaPais">
-                            <div class="col-12 col-lg-8 margin-x-5">
-                                <h4 style="margin: 0.5rem 0 0.5rem 0; text-align: center; color: #999;">Gene KIT</h4>
-                                <h3>PADRÃO DE BRANCO: ROSILHO</h3>
-                                <p style="padding-top: 2rem;">Responsável por um padrão de pelagem caracterizado pelo interpolamento de pelos brancos com a cor base, criando um aspecto salpicado.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- INICIO DO CONTEUDO PRINCIPAL -->
-                        
-                        <p>O gene Rosilho, também conhecido como Ruão, manifesta-se em um padrão característico de pelos brancos e coloridos misturados por todo o corpo do animal, enquanto a cabeça, as partes inferiores das pernas, a crina e a cauda permanecem na cor original. Esse padrão pode não ser evidente em potros até que ocorra a primeira troca de pelos. Nos cavalos Rosilhos, a mistura de pelos brancos e coloridos é uniformemente distribuída, diferenciando-se de outros padrões semelhantes, conhecidos como <i>Roaning</i>, que apresentam uma distribuição desigual de pelos brancos. A herança genética desses outros padrões ainda não foi completamente definida.</p>
-                        
-                        <p><br>O padrão pode ser encontrado em diversas raças, incluindo: Belgas, Cavalo de Passo Peruano, Gypsy Horse, Mini Pônei, Paint Horse, Paso Fino, Quarto de Milha e Welsh Pônei. Contudo, não é observado em raças como Puro Sangue Inglês (PSI) e Puro Sangue Árabe.</p>
+                    <!-- INICIO DO CONTEUDO PRINCIPAL -->
 
-                        <p><br>Embora algumas pesquisas tenham sugerido que o gene pode ser letal em homozigose, levando à morte do potro, evidências coletadas em cavalos da raça Quarto de Milha indicam o contrário. Registros de produção documentam a existência de animais rosilhos que geram potros 100% rosilhos, e testes de DNA confirmaram a homozigose na região genômica que contém o gene.</p>
+                    <p>O gene Rosilho, também conhecido como Ruão, manifesta-se em um padrão característico de pelos
+                        brancos e coloridos misturados por todo o corpo do animal, enquanto a cabeça, as partes
+                        inferiores das pernas, a crina e a cauda permanecem na cor original. Esse padrão pode não ser
+                        evidente em potros até que ocorra a primeira troca de pelos. Nos cavalos Rosilhos, a mistura de
+                        pelos brancos e coloridos é uniformemente distribuída, diferenciando-se de outros padrões
+                        semelhantes, conhecidos como <i>Roaning</i>, que apresentam uma distribuição desigual de pelos
+                        brancos. A herança genética desses outros padrões ainda não foi completamente definida.</p>
 
-                        <p><br>Abaixo, apresentamos uma série de fotos que ilustram as pelagens base dos equinos e como elas interagem com o gene Rosilho ao longo da vida do animal. As imagens mostram desde potros até animais adultos, permitindo observar as possíveis transições e alterações no fenótipo devido à idade. Além disso, também será demonstrado o detalhamento do interpolamento de pelos e a marcação dos membros locomotores, oferecendo um panorama visual completo das variações de cor, padrão e características específicas que podem ocorrer com o tempo. </p>
+                    <p><br>O padrão pode ser encontrado em diversas raças, incluindo: Belgas, Cavalo de Passo Peruano,
+                        Gypsy Horse, Mini Pônei, Paint Horse, Paso Fino, Quarto de Milha e Welsh Pônei. Contudo, não é
+                        observado em raças como Puro Sangue Inglês (PSI) e Puro Sangue Árabe.</p>
 
-                        <!-------INICIO Carrousel-------->
+                    <p><br>Embora algumas pesquisas tenham sugerido que o gene pode ser letal em homozigose, levando à
+                        morte do potro, evidências coletadas em cavalos da raça Quarto de Milha indicam o contrário.
+                        Registros de produção documentam a existência de animais rosilhos que geram potros 100%
+                        rosilhos, e testes de DNA confirmaram a homozigose na região genômica que contém o gene.</p>
 
-                        <div class="col-md-12 my-5">
-                            <p class="text-center"
-                                style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
-                                <strong>Representação da pelagem na base castanha.</strong>
-                            </p>
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-01.jpg" alt="Rosilho-01">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Potro de pelagem Rosilho de Castanho.<br><br><strong>Fonte:
-                                            colorgenetics.info</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-02.jpg"
-                                        alt="Rosilho-02">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal adulto de pelagem Rosilho de Castanho.<br><br><strong>Fonte:
-                                            www.ranchworldads.com</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-03.jpg"
-                                        alt="Rosilho-03">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Detalhe do interpolamento de pelos brancos e coloridos em um animal Rosilho de Castanho.<br><br><strong>Fonte: vgl.ucdavis.edu</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-04.jpg"
-                                        alt="Rosilho-04">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Detalhe das patas de um animal Rosilho de Castanho. O sinal em forma de V invertido localizado aonde o padrão do gene termina é a única maneira de identificar com precisão um animal rosilho.<br><br><strong>Fonte:
-                                            colorgenetics.info</strong></p>
-                                </div>
-                            </div>
-                        </div>
+                    <p><br>Abaixo, apresentamos uma série de fotos que ilustram as pelagens base dos equinos e como elas
+                        interagem com o gene Rosilho ao longo da vida do animal. As imagens mostram desde potros até
+                        animais adultos, permitindo observar as possíveis transições e alterações no fenótipo devido à
+                        idade. Além disso, também será demonstrado o detalhamento do interpolamento de pelos e a
+                        marcação dos membros locomotores, oferecendo um panorama visual completo das variações de cor,
+                        padrão e características específicas que podem ocorrer com o tempo. </p>
 
-                        <!-------FINAL Carrousel-------->
+                    <!-------INICIO Carrousel-------->
 
-                        <!-------INICIO Carrousel-------->
-
-                        <div class="col-md-12 my-5">
-                            <p class="text-center"
-                                style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
-                                <strong>Representação da pelagem na base Alazã.</strong>
-                            </p>
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-05.jpg" alt="Rosilho-05">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Potro de pelagem Rosilho de Alazão.<br><br><strong>Fonte:
-                                            www.gypsyunicorns.com</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-06.jpg"
-                                        alt="Rosilho-06">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal adulto de pelagem Rosilho de Alazão.<br><br><strong>Fonte:
-                                            Essick, Can – página no Facebook. Disponível em: https://www.facebook.com/cam.essick.5/photos_by</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-07.jpg"
-                                        alt="Rosilho-07">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal de pelagem Rosilho de Alazão com a presença do gene flaxen.<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan, Cream no Facebook – imagem cedida por Danyale Bressler. Disponível em: fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------FINAL Carrousel-------->
-
-                        <!-------INICIO Carrousel-------->
-
-                        <div class="col-md-12 my-5">
-                            <p class="text-center"
-                                style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
-                                <strong>Representação da pelagem na base Preta.</strong>
-                            </p>
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-08.jpg" alt="Rosilho-08">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Potro de pelagem Rosilho Negro.<br><br><strong>Fonte:
-                                            colorgenetics.info</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-09.jpg"
-                                        alt="Rosilho-09">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal adulto de pelagem Rosilho Negro.<br><br><strong>Fonte:
-                                            www.royalcobs.com</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-10.jpg"
-                                        alt="Rosilho-10">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal de pelagem Azul Ruano Prateado, caracterizado pela presença do gene Silver, que resulta em uma crina e cauda claras, um corpo mais claro em sua totalidade, e a presença de dapples ou "patacas," uma característica distinta do gene Silver (Prata).<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan, Cream no Facebook – imagem cedida por Jenny Ramsey. Disponível fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-11.jpg"
-                                        alt="Rosilho-11">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal de pelagem Azul Ruano Tobiano, demonstrando como o gene do Rosilho pode interagir com outros padrões, como o Tobiano, resultando em áreas maiores de branco na pelagem.<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan, Cream no Facebook – imagem cedida por Bri Quinn. Disponível fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-------FINAL Carrousel-------->
-
-                        <h3 class="margin-topico">SIMILARIDADES COM OUTROS PADRÕES</h3>
-
-                        <p>Existem algumas semelhanças entre o padrão de pelagem dos animais Rosilhos e os padrões associados aos genes do Tordilho, Rabicano, e, em especial, ao Varnish Roan (gene Appaloosa, relacionado ao Complexo de Leopardo). No entanto, as características distintivas dos Rosilhos não se manifestam em nenhum desses outros padrões. Entre essas características exclusivas estão a <strong>permanência da cor base nos pelos de toda a cabeça do animal</strong> e a presença de um <strong>V invertido</strong> na parte inferior das patas.</p>
-
-                        <h4 class="margin-topico">Similaridades: Tordilho</h4>
-
-                        <p>A pelagem Tordilha é frequentemente confundida com o padrão Rosilho, mas é importante notar as diferenças entre eles:
-                            <br><br>• O Tordilho é um modificador de pelagem, não um padrão de branco como o Rosilho. Ao contrário do Rosilho, que mantém o padrão ao longo de toda a vida, o Tordilho experimenta uma despigmentação gradual, clareando completamente à medida que envelhece. 
-                            <br><br>• Tordilhos sofrem uma despigmentação total do corpo, inclusive da cabeça e membros locomotores, os Rosilhos mantêm o padrão da cabeça mais escura por toda a vida.
-                            <br><br>• Animais Tordilhos apresentam patacas “dapples” em toda a extensão de seu corpo, já os Rosilhos, apresentam somente a interpolação dos pelos.</p>
-
-                        <!-------INICIO Dupla de imagens-------->
-
-                        <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
-                            <div class="col-md-12">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-12.jpg" alt="Rosilho-12">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Rosilho Negro. <br><strong>Fonte: pelagens.blogspot.com</strong></p>
-                                    </div>
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-13.jpg" alt="Rosilho-13">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Tordilho Negro. <br><strong>Fonte: www.thoroughbreddailynews.com</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-------FINAL Dupla de imagens-------->
-
-                        <h4 class="margin-topico">Similaridades: Rabicano | Varnish</h4>
-
-                        <p>
-                            • O Rabicano se caracteriza pela presença de pelos brancos limitados às regiões do flanco, abdômen e base da cauda, ao contrário do Rosilho, que exibe uma distribuição mais ampla de pelos brancos. 
-                            <br><br>• O <i>Varnish</i> é associado ao Complexo de Leopardo, ligado ao gene Appaloosa, e pode ser facilmente confundido com o Rosilho devido à presença de pelos brancos. No entanto, a principal distinção reside na distribuição desuniforme do branco no <i>Varnish</i>, que inclui áreas como a cabeça e as patas, deixando apenas algumas regiões com a pelagem base, como o focinho, jarretes e peito – áreas conhecidas como <i>Varnish Marks</i>. Quando o padrão <i>Varnish</i> está concentrado principalmente na anca, a pelagem é denominada <i>Varnish Blanket</i>.
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Representação da pelagem na base castanha.</strong>
                         </p>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-01.jpg" alt="Rosilho-01">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Potro de pelagem Rosilho de Castanho.<br><br><strong>Fonte:
+                                        colorgenetics.info</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-02.jpg" alt="Rosilho-02">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal adulto de pelagem Rosilho de Castanho.<br><br><strong>Fonte:
+                                        www.ranchworldads.com</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-03.jpg" alt="Rosilho-03">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Detalhe do interpolamento de pelos brancos e coloridos em um animal Rosilho de
+                                    Castanho.<br><br><strong>Fonte: vgl.ucdavis.edu</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-04.jpg" alt="Rosilho-04">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Detalhe das patas de um animal Rosilho de Castanho. O sinal em forma de V invertido
+                                    localizado aonde o padrão do gene termina é a única maneira de identificar com
+                                    precisão um animal rosilho.<br><br><strong>Fonte:
+                                        colorgenetics.info</strong></p>
+                            </div>
+                        </div>
+                    </div>
 
-                        <!-------INICIO Carrousel-------->
+                    <!-------FINAL Carrousel-------->
 
-                        <div class="col-md-12 my-5">
-                            <p class="text-center"
-                                style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
-                                <strong>Comparação entre três variações de pelagem em equinos.</strong>
-                            </p>
+                    <!-------INICIO Carrousel-------->
+
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Representação da pelagem na base Alazã.</strong>
+                        </p>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-05.jpg" alt="Rosilho-05">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Potro de pelagem Rosilho de Alazão.<br><br><strong>Fonte:
+                                        www.gypsyunicorns.com</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-06.jpg" alt="Rosilho-06">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal adulto de pelagem Rosilho de Alazão.<br><br><strong>Fonte:
+                                        Essick, Can – página no Facebook. Disponível em:
+                                        https://www.facebook.com/cam.essick.5/photos_by</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-07.jpg" alt="Rosilho-07">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Rosilho de Alazão com a presença do gene
+                                    flaxen.<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver,
+                                        Roan, Cream no Facebook – imagem cedida por Danyale Bressler. Disponível em:
+                                        fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-------FINAL Carrousel-------->
+
+                    <!-------INICIO Carrousel-------->
+
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Representação da pelagem na base Preta.</strong>
+                        </p>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-08.jpg" alt="Rosilho-08">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Potro de pelagem Rosilho Negro.<br><br><strong>Fonte:
+                                        colorgenetics.info</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-09.jpg" alt="Rosilho-09">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal adulto de pelagem Rosilho Negro.<br><br><strong>Fonte:
+                                        www.royalcobs.com</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-10.jpg" alt="Rosilho-10">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Azul Ruano Prateado, caracterizado pela presença do gene Silver,
+                                    que resulta em uma crina e cauda claras, um corpo mais claro em sua totalidade, e a
+                                    presença de dapples ou "patacas," uma característica distinta do gene Silver
+                                    (Prata).<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver,
+                                        Roan, Cream no Facebook – imagem cedida por Jenny Ramsey. Disponível
+                                        fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-11.jpg" alt="Rosilho-11">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Azul Ruano Tobiano, demonstrando como o gene do Rosilho pode
+                                    interagir com outros padrões, como o Tobiano, resultando em áreas maiores de branco
+                                    na pelagem.<br><br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl,
+                                        Silver, Roan, Cream no Facebook – imagem cedida por Bri Quinn. Disponível
+                                        fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-------FINAL Carrousel-------->
+
+                    <h3 class="margin-topico">SIMILARIDADES COM OUTROS PADRÕES</h3>
+
+                    <p>Existem algumas semelhanças entre o padrão de pelagem dos animais Rosilhos e os padrões
+                        associados aos genes do Tordilho, Rabicano, e, em especial, ao Varnish Roan (gene Appaloosa,
+                        relacionado ao Complexo de Leopardo). No entanto, as características distintivas dos Rosilhos
+                        não se manifestam em nenhum desses outros padrões. Entre essas características exclusivas estão
+                        a <strong>permanência da cor base nos pelos de toda a cabeça do animal</strong> e a presença de
+                        um <strong>V invertido</strong> na parte inferior das patas.</p>
+
+                    <h4 class="margin-topico">Similaridades: Tordilho</h4>
+
+                    <p>A pelagem Tordilha é frequentemente confundida com o padrão Rosilho, mas é importante notar as
+                        diferenças entre eles:
+                        <br><br>• O Tordilho é um modificador de pelagem, não um padrão de branco como o Rosilho. Ao
+                        contrário do Rosilho, que mantém o padrão ao longo de toda a vida, o Tordilho experimenta uma
+                        despigmentação gradual, clareando completamente à medida que envelhece.
+                        <br><br>• Tordilhos sofrem uma despigmentação total do corpo, inclusive da cabeça e membros
+                        locomotores, os Rosilhos mantêm o padrão da cabeça mais escura por toda a vida.
+                        <br><br>• Animais Tordilhos apresentam patacas “dapples” em toda a extensão de seu corpo, já os
+                        Rosilhos, apresentam somente a interpolação dos pelos.
+                    </p>
+
+                    <!-------INICIO Dupla de imagens-------->
+
+                    <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
+                        <div class="col-md-12">
                             <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-14.jpg" alt="Rosilho-14">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal de pelagem Alazão Rabicano.<br><br><strong>Fonte:
-                                            Página Golden Coast Quarter Horses no Facebook. Disponível em: www.facebook.com/GoldenCoastQuarterHorses</strong></p>
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-12.jpg" alt="Rosilho-12">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem
+                                        Rosilho Negro. <br><strong>Fonte: pelagens.blogspot.com</strong></p>
                                 </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-15.jpg"
-                                        alt="Rosilho-15">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal com pelagem Rosilho de Alazão.<br><br><strong>Fonte:
-                                            Fonte: Essick, Can – página no Facebook. Disponível em: https://www.facebook.com/cam.essick.5/photos_by</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-16.jpg"
-                                        alt="Rosilho-16">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Animal de pelagem Alazão Varnish.<br><br><strong>Fonte: https://www.equinetapestry.blog/repigmentation-spots/</strong></p>
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-13.jpg" alt="Rosilho-13">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem
+                                        Tordilho Negro. <br><strong>Fonte: www.thoroughbreddailynews.com</strong></p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-------FINAL Carrousel-------->
+                    <!-------FINAL Dupla de imagens-------->
 
-                        <h4 class="margin-topico">Similaridades: Falso Rosilho</h4>
+                    <h4 class="margin-topico">Similaridades: Rabicano | Varnish</h4>
 
-                        <p>O genótipo W20 pode resultar em uma quantidade variável de pelos e manchas brancas nos membros locomotores e face do animal. Devido a essa semelhança, denominamos o animal de Falso Rosilho (Fake Roan), pois exibe uma pelagem que se assemelha muito ao padrão do Rosilho, mesmo sem possuí-lo.</p>
-                        
-                        <!-------INICIO Dupla de imagens-------->
+                    <p>
+                        • O Rabicano se caracteriza pela presença de pelos brancos limitados às regiões do flanco,
+                        abdômen e base da cauda, ao contrário do Rosilho, que exibe uma distribuição mais ampla de pelos
+                        brancos.
+                        <br><br>• O <i>Varnish</i> é associado ao Complexo de Leopardo, ligado ao gene Appaloosa, e pode
+                        ser facilmente confundido com o Rosilho devido à presença de pelos brancos. No entanto, a
+                        principal distinção reside na distribuição desuniforme do branco no <i>Varnish</i>, que inclui
+                        áreas como a cabeça e as patas, deixando apenas algumas regiões com a pelagem base, como o
+                        focinho, jarretes e peito – áreas conhecidas como <i>Varnish Marks</i>. Quando o padrão
+                        <i>Varnish</i> está concentrado principalmente na anca, a pelagem é denominada <i>Varnish
+                            Blanket</i>.
+                    </p>
 
-                        <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
-                            <div class="col-md-12">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-17.jpg" alt="Rosilho-17">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de Falso Rosilho (Fake Roan). O animal possui homozigose para o gene W20 (Dominante Branco). <br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan, Cream no Facebook – imagem cedida por ChatterHouse Farm. Disponível fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
-                                    </div>
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-18.jpg" alt="Rosilho-18">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Detalhe da pelagem de Falso Rosilho. <br><strong>Fonte: www.Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan, Cream no Facebook – imagem cedida por ChatterHouse Farm. Disponível fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong></p>
-                                    </div>
+                    <!-------INICIO Carrousel-------->
+
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Comparação entre três variações de pelagem em equinos.</strong>
+                        </p>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-14.jpg" alt="Rosilho-14">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Alazão Rabicano.<br><br><strong>Fonte:
+                                        Página Golden Coast Quarter Horses no Facebook. Disponível em:
+                                        www.facebook.com/GoldenCoastQuarterHorses</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-15.jpg" alt="Rosilho-15">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal com pelagem Rosilho de Alazão.<br><br><strong>Fonte:
+                                        Fonte: Essick, Can – página no Facebook. Disponível em:
+                                        https://www.facebook.com/cam.essick.5/photos_by</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-16.jpg" alt="Rosilho-16">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Alazão Varnish.<br><br><strong>Fonte:
+                                        https://www.equinetapestry.blog/repigmentation-spots/</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-------FINAL Carrousel-------->
+
+                    <h4 class="margin-topico">Similaridades: Falso Rosilho</h4>
+
+                    <p>O genótipo W20 pode resultar em uma quantidade variável de pelos e manchas brancas nos membros
+                        locomotores e face do animal. Devido a essa semelhança, denominamos o animal de Falso Rosilho
+                        (Fake Roan), pois exibe uma pelagem que se assemelha muito ao padrão do Rosilho, mesmo sem
+                        possuí-lo.</p>
+
+                    <!-------INICIO Dupla de imagens-------->
+
+                    <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
+                        <div class="col-md-12">
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-17.jpg" alt="Rosilho-17">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Animal de Falso Rosilho
+                                        (Fake Roan). O animal possui homozigose para o gene W20 (Dominante Branco).
+                                        <br><strong>Fonte: Página Rare Dilute Gypsy Horses: Dun, Pearl, Silver, Roan,
+                                            Cream no Facebook – imagem cedida por ChatterHouse Farm. Disponível
+                                            fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong>
+                                    </p>
+                                </div>
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-18.jpg" alt="Rosilho-18">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Detalhe da pelagem de
+                                        Falso Rosilho. <br><strong>Fonte: www.Página Rare Dilute Gypsy Horses: Dun,
+                                            Pearl, Silver, Roan, Cream no Facebook – imagem cedida por ChatterHouse
+                                            Farm. Disponível
+                                            fb.com/groups/1680367482210681/?multi_permalinks=3054230168157732</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-------FINAL Dupla de imagens-------->
+                    </div>
 
-                        <h3 class="margin-topico">O ROSILHO, AS REVERSED DAPPLES E A INTERAÇÃO COM OUTRAS PELAGENS</h3>
+                    <!-------FINAL Dupla de imagens-------->
 
-                        <p>Os animais de pelagem Rosilha raramente apresentam dapples (patacas), mas, quando o fazem, essas marcas são do tipo "reversed dapples", ou seja, possuem um padrão invertido em comparação ao que é normalmente observado. Nas reversed dapples, a área central da marca é mais escura, enquanto as bordas ao redor são mais claras. Isso contrasta com as pacatas comuns, onde o centro é geralmente mais claro, e as bordas são mais escuras. Essa característica é uma das principais diferenças entre o padrão de pacatas produzido pelo gene associado ao Rosilho.</p>
+                    <h3 class="margin-topico">O ROSILHO, AS REVERSED DAPPLES E A INTERAÇÃO COM OUTRAS PELAGENS</h3>
 
-                        <!-------INICIO Dupla de imagens-------->
+                    <p>Os animais de pelagem Rosilha raramente apresentam dapples (patacas), mas, quando o fazem, essas
+                        marcas são do tipo "reversed dapples", ou seja, possuem um padrão invertido em comparação ao que
+                        é normalmente observado. Nas reversed dapples, a área central da marca é mais escura, enquanto
+                        as bordas ao redor são mais claras. Isso contrasta com as pacatas comuns, onde o centro é
+                        geralmente mais claro, e as bordas são mais escuras. Essa característica é uma das principais
+                        diferenças entre o padrão de pacatas produzido pelo gene associado ao Rosilho.</p>
 
-                        <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
-                            <div class="col-md-12">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-19.jpg" alt="Rosilho-19">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Rosilho de Alazão apresentando o padrão de Reversed Dapples (pacatas invertidas, em uma tradução literal). <br><strong>Fonte: equinetapestry.wordpress.com</strong></p>
-                                    </div>
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-20.jpg" alt="Rosilho-20">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Rosilho Negro apresentando o padrão de Reversed Dapples (pacatas invertidas, em uma tradução literal). <br><strong>Fonte: Página Carletto no Facebook. Disponível em: https://www.facebook.com/murgese.carletto</strong></p>
-                                    </div>
+                    <!-------INICIO Dupla de imagens-------->
+
+                    <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
+                        <div class="col-md-12">
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-19.jpg" alt="Rosilho-19">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem
+                                        Rosilho de Alazão apresentando o padrão de Reversed Dapples (pacatas invertidas,
+                                        em uma tradução literal). <br><strong>Fonte:
+                                            equinetapestry.wordpress.com</strong></p>
+                                </div>
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-20.jpg" alt="Rosilho-20">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem
+                                        Rosilho Negro apresentando o padrão de Reversed Dapples (pacatas invertidas, em
+                                        uma tradução literal). <br><strong>Fonte: Página Carletto no Facebook.
+                                            Disponível em: https://www.facebook.com/murgese.carletto</strong></p>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-------FINAL Dupla de imagens-------->
+                    </div>
 
-                        <p>O gene do Rosilho, quando combinado com outras pelagens menos comuns, pode resultar em variações únicas e pouco documentadas, o que dificulta no processo de nomenclatura. Essas combinações podem criar padrões e colorações que não são amplamente reconhecidos ou estudados.</p>
+                    <!-------FINAL Dupla de imagens-------->
 
-                        <table class="table td-center" style="text-align: center; margin: 5rem auto;">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <p>O gene do Rosilho, quando combinado com outras pelagens menos comuns, pode resultar em variações
+                        únicas e pouco documentadas, o que dificulta no processo de nomenclatura. Essas combinações
+                        podem criar padrões e colorações que não são amplamente reconhecidos ou estudados.</p>
+
+                    <table class="table td-center" style="text-align: center; margin: 5rem auto;">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col">Pelagem</th>
                                 <th scope="col">Variação com o gene Rosilho</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Castanho Pinhão <br>Castanho Mógno</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Castanho
+                                    Pinhão <br>Castanho Mógno</th>
                                 <td style="vertical-align: middle;">Purple Roan (devido a tonalidade avermelhada)</td>
-                              </tr>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Alazão Escuro</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Alazão Escuro
+                                </th>
                                 <td style="vertical-align: middle;">Lilac Roan</td>
-                              </tr>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Alazão Claro <br>Sorrel</th>
-                                <td style="vertical-align: middle;">Honey Roan (Rosilho Mel, em tradução literal não oficial)</td>
-                              </tr>
-                            </tbody>
-                        </table>
-                        <p>Fonte da tabela: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017)</p>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Alazão Claro
+                                    <br>Sorrel</th>
+                                <td style="vertical-align: middle;">Honey Roan (Rosilho Mel, em tradução literal não
+                                    oficial)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Fonte da tabela: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição
+                        (2017)</p>
 
-                        <h3 class="margin-topico"><b class="atual-titulo destaque"><i>CORN SPOTS</i></b> EM ANIMAIS ROSILHOS: O QUE SÃO E COMO SE MANIFESTAM</h3>
+                    <h3 class="margin-topico"><b class="atual-titulo destaque"><i>CORN SPOTS</i></b> EM ANIMAIS
+                        ROSILHOS: O QUE SÃO E COMO SE MANIFESTAM</h3>
 
-                        <p>Os <i>corn spots</i> são uma característica distinta que auxilia na identificação de animais com a pelagem Rosilha. Quando esses animais sofrem lesões que resultam em cicatrizes, a pelagem que cresce sobre a área cicatrizada retorna à cor da pelagem base, em vez de ser branca, como ocorre com a maioria dos outros padrões de pelagem. Esses pontos de pelagem "colorida" são conhecidos como <i>corn spots</i>. Embora geralmente se formem em áreas cicatrizadas, em alguns casos, animais Rosilhos podem apresentar manchas escuras em sua pelagem que não estão associadas a lesões. Mesmo nesses casos, essas manchas escuras são também denominadas <i>corn spots</i>.</p>
+                    <p>Os <i>corn spots</i> são uma característica distinta que auxilia na identificação de animais com
+                        a pelagem Rosilha. Quando esses animais sofrem lesões que resultam em cicatrizes, a pelagem que
+                        cresce sobre a área cicatrizada retorna à cor da pelagem base, em vez de ser branca, como ocorre
+                        com a maioria dos outros padrões de pelagem. Esses pontos de pelagem "colorida" são conhecidos
+                        como <i>corn spots</i>. Embora geralmente se formem em áreas cicatrizadas, em alguns casos,
+                        animais Rosilhos podem apresentar manchas escuras em sua pelagem que não estão associadas a
+                        lesões. Mesmo nesses casos, essas manchas escuras são também denominadas <i>corn spots</i>.</p>
 
-                        <!-------INICIO Dupla de imagens-------->
+                    <!-------INICIO Dupla de imagens-------->
 
-                        <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
-                            <div class="col-md-12">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-21.jpg" alt="Rosilho-21">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">O Mustang selvagem, com pelagem Purple Roan, já enfrentou inúmeras lutas por dominância e exibe suas cicatrizes, conhecidas como corn spots, como símbolos de suas vitórias. Essas marcas possuem uma coloração escura, que se assemelha à cor base do animal. <br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017)</strong></p>
-                                    </div>
-                                    <div class="featured-item p-3">
-                                        <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-22.jpg" alt="Rosilho-22">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Demonstração da coloração típica de cicatrizes em equinos. Além da cicatriz central em processo de cicatrização, que apresenta uma coloração mais clara, outras cicatrizes brancas já estão visíveis no lombo do animal. Essas marcas provavelmente resultam do uso inadequado de equipamentos de sela, que não ofereceram o conforto necessário ao animal. <br><strong>Fonte: www.thesprucepets.com</strong></p>
-                                    </div>
+                    <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
+                        <div class="col-md-12">
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-21.jpg" alt="Rosilho-21">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">O Mustang selvagem, com
+                                        pelagem Purple Roan, já enfrentou inúmeras lutas por dominância e exibe suas
+                                        cicatrizes, conhecidas como corn spots, como símbolos de suas vitórias. Essas
+                                        marcas possuem uma coloração escura, que se assemelha à cor base do animal.
+                                        <br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color
+                                            Genetics - 4ª edição (2017)</strong></p>
+                                </div>
+                                <div class="featured-item p-3">
+                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho-22.jpg" alt="Rosilho-22">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Demonstração da
+                                        coloração típica de cicatrizes em equinos. Além da cicatriz central em processo
+                                        de cicatrização, que apresenta uma coloração mais clara, outras cicatrizes
+                                        brancas já estão visíveis no lombo do animal. Essas marcas provavelmente
+                                        resultam do uso inadequado de equipamentos de sela, que não ofereceram o
+                                        conforto necessário ao animal. <br><strong>Fonte: www.thesprucepets.com</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-------FINAL Dupla de imagens-------->
+                    </div>
 
-                        <h3 class="margin-topico">INFORMAÇÕES GENÉTICAS</h3>
+                    <!-------FINAL Dupla de imagens-------->
 
-                        <table class="table" style="text-align: center;">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <h3 class="margin-topico">INFORMAÇÕES GENÉTICAS</h3>
+
+                    <table class="table" style="text-align: center;">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col" style="width: 15%;">Alelos</th>
                                 <th scope="col" style="width: 15%;">Dominância</th>
                                 <th scope="col">Modo de Herança</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">RNRN</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Homozigoto</strong></th>
-                                <td style="text-align: justify;">Positivo para o gene Rosilho/Ruão, possuindo duas cópias do gene. Possui 100% de chance de transmitir o gene quando reproduzido.</td>
-                              </tr>
-                              <tr>
+                                <th style="vertical-align: middle; background-color: #b2a574;">
+                                    <strong>Homozigoto</strong></th>
+                                <td style="text-align: justify;">Positivo para o gene Rosilho/Ruão, possuindo duas
+                                    cópias do gene. Possui 100% de chance de transmitir o gene quando reproduzido.</td>
+                            </tr>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">nRN</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Heterozigoto</strong></th>
-                                <td style="text-align: justify;">Positivo para o gene Rosilho/Ruão, possuindo uma cópia do gene. Possui 50% de chance de  transmitir gene quando reproduzido.</td>
-                              </tr>
-                              <tr>
+                                <th style="vertical-align: middle; background-color: #b2a574;">
+                                    <strong>Heterozigoto</strong></th>
+                                <td style="text-align: justify;">Positivo para o gene Rosilho/Ruão, possuindo uma cópia
+                                    do gene. Possui 50% de chance de transmitir gene quando reproduzido.</td>
+                            </tr>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">nn</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Negativo</strong></th>
+                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Negativo</strong>
+                                </th>
                                 <td style="text-align: justify;">Animal negativo para o gene = não Rosilho/Ruão.</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                        <table class="table td-center" style="text-align: center; margin: 5rem auto;">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <table class="table td-center" style="text-align: center; margin: 5rem auto;">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col">Gene</th>
                                 <th scope="col">Informação</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Sem Informação</th>
-                                <td style="vertical-align: middle; text-align: justify;">O gene do Rosilho é dominante, mas a mutação específica responsável por sua expressão ainda não foi identificada. Consequentemente, não existe um teste genético definitivo para detectar a presença deste gene. No entanto, o Laboratório de Genética Veterinária (LGV) da Escola de Medicina Veterinária da Universidade da Califórnia em Davis (UC Davis) conseguiu identificar marcadores de DNA em cavalos das raças Quarto de Milha e Paint Horses, que estão associados ao gene Rosilho. Esses marcadores podem ser utilizados para determinar a presença do gene e quantas cópias dele o cavalo possui. Apesar disso, as pesquisas e estudos sobre o gene ainda estão em estágio inicial, indicando que há muito a ser explorado e compreendido nesse campo.</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Sem
+                                    Informação</th>
+                                <td style="vertical-align: middle; text-align: justify;">O gene do Rosilho é dominante,
+                                    mas a mutação específica responsável por sua expressão ainda não foi identificada.
+                                    Consequentemente, não existe um teste genético definitivo para detectar a presença
+                                    deste gene. No entanto, o Laboratório de Genética Veterinária (LGV) da Escola de
+                                    Medicina Veterinária da Universidade da Califórnia em Davis (UC Davis) conseguiu
+                                    identificar marcadores de DNA em cavalos das raças Quarto de Milha e Paint Horses,
+                                    que estão associados ao gene Rosilho. Esses marcadores podem ser utilizados para
+                                    determinar a presença do gene e quantas cópias dele o cavalo possui. Apesar disso,
+                                    as pesquisas e estudos sobre o gene ainda estão em estágio inicial, indicando que há
+                                    muito a ser explorado e compreendido nesse campo.</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                        <h3 class="margin-topico">PROBABILIDADE HEREDITÁRIA DO GENE ROSILHO | RUÃO</h3>
+                    <h3 class="margin-topico">PROBABILIDADE HEREDITÁRIA DO GENE ROSILHO | RUÃO</h3>
 
-                        <p>
-                            Utilizando o quadro de Punnet é possível calcular a probabilidade hereditária da pelagem que o potro pode possuir, utilizando os diferentes genótipos. Neste exemplo, foi utilizado um animal de pelagem base Preta.
-                            <br><br>RNRN = homozigoto para o Rosilho.
-                            <br><br>nRN = heterozigoto para o Rosilho.
-                            <br><br>nn = recessivo para o Rosilho (portanto, neste exemplo, terá a pelagem base Preta).
+                    <p>
+                        Utilizando o quadro de Punnet é possível calcular a probabilidade hereditária da pelagem que o
+                        potro pode possuir, utilizando os diferentes genótipos. Neste exemplo, foi utilizado um animal
+                        de pelagem base Preta.
+                        <br><br>RNRN = homozigoto para o Rosilho.
+                        <br><br>nRN = heterozigoto para o Rosilho.
+                        <br><br>nn = recessivo para o Rosilho (portanto, neste exemplo, terá a pelagem base Preta).
+                    </p>
+
+                    <!-------INICIO Carrousel-------->
+
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Aplicação do Gene Rosilho no Quadro de Punnet.</strong>
                         </p>
-
-                        <!-------INICIO Carrousel-------->
-
-                        <div class="col-md-12 my-5">
-                            <p class="text-center"
-                                style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
-                                <strong>Aplicação do Gene Rosilho no Quadro de Punnet.</strong></p>
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 1 - Punnet.png" alt="RNRNRNRN">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Ambos os pais são homozigotos para o Rosilho – (RNRN), portanto o potro irá herdar uma cópia de cada gene dominante, resultando sempre em um animal homozigoto.</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 2 - Punnet.png" alt="nRNRNRN">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Mãe: heterozigoto para o Rosilho – (nRN). Pai: homozigoto para o Rosilho - (RNRN). Resultado: 50% = Homozigoto (RNRN) / 50% = Heterozigoto (nRN).</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 3 - Punnet.png" alt="nRNnRN">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Ambos os pais são heterozigotos para o Rosilho - (nRN). Resultado: 25% = Homozigoto (RNRN) / 50% = Heterozigoto (nRN) / 25% = negativo para o Rosilho (Preto) (nn).
-                                    </p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 4 - Punnet.png" alt="nRNnn">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Mãe: negativa para o Rosilho – (nn). Pai: heterozigoto para o Rosilho – (nRN). Resultado: 50% - Heterozigoto (nRN) / 50% = negativo para o Rosilho (nn).</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 5 - Punnet.png" alt="nnRNRN">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
-                                        Mãe: negativa para o Rosilho – nn. Pai: homozigoto para o Rosilho – (RNRN). Resultado: 100% - Heterozigoto (nRN), pois não importa como, o potro irá herdar um gene dominante do pai e um recessivo da mãe.</p>
-                                </div>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 1 - Punnet.png" alt="RNRNRNRN">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Ambos os pais são homozigotos para o Rosilho – (RNRN), portanto o potro irá herdar
+                                    uma cópia de cada gene dominante, resultando sempre em um animal homozigoto.</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 2 - Punnet.png" alt="nRNRNRN">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: heterozigoto para o Rosilho – (nRN). Pai: homozigoto para o Rosilho - (RNRN).
+                                    Resultado: 50% = Homozigoto (RNRN) / 50% = Heterozigoto (nRN).</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 3 - Punnet.png" alt="nRNnRN">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Ambos os pais são heterozigotos para o Rosilho - (nRN). Resultado: 25% = Homozigoto
+                                    (RNRN) / 50% = Heterozigoto (nRN) / 25% = negativo para o Rosilho (Preto) (nn).
+                                </p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 4 - Punnet.png" alt="nRNnn">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: negativa para o Rosilho – (nn). Pai: heterozigoto para o Rosilho – (nRN).
+                                    Resultado: 50% - Heterozigoto (nRN) / 50% = negativo para o Rosilho (nn).</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../../img/Fotos/Pelagens/rosilho/Rosilho 5 - Punnet.png" alt="nnRNRN">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: negativa para o Rosilho – nn. Pai: homozigoto para o Rosilho – (RNRN).
+                                    Resultado: 100% - Heterozigoto (nRN), pois não importa como, o potro irá herdar um
+                                    gene dominante do pai e um recessivo da mãe.</p>
                             </div>
                         </div>
-
-                        <!-------FINAL Carrousel-------->
-
-                        <h3 class="margin-topico">REFERÊNCIAS</h3>
-
-                        <p>REZENDE, Adalgiza S. Carneiro de; COSTA, Maria Dulcinéia da. <strong>Pelagem dos equinos: nomenclatura e genética.</strong> 4ª ed. Belo Horizonte/MG: FEPMVZ Editora, 2019.</p>
-
-                        <p><br>SPONENBERG, Dan Phillip; BELLONE, Rebecca. <strong>Equine Color Genetics.</strong> 4ª ed. Hoboken/NJ: John Wiley & Sons, Inc., 2017.</p>
-
-                        <p><br><strong>Roan Zygosity Test.</strong> Site UC Davis: Veterinary Medicine & Veterinary Genetics
-                            Laboratory. Disponível em: <a href="https://vgl.ucdavis.edu/test/roan" target="_blank"
-                                style="color: #b2a574;">https://vgl.ucdavis.edu/test/roan</a></p>
-                        
-                        <p><br><strong>What is a Roan horse - Compare to other Roaning patterns.</strong> Site Horse and Us -
-                            Multimedia Educational Content About Horses. Disponível em: <a
-                                href="https://www.horsesandus.com/what-is-a-roan-horse/" target="_blank"
-                                style="color: #b2a574;">https://www.horsesandus.com/what-is-a-roan-horse/</a></p>
                     </div>
+
+                    <!-------FINAL Carrousel-------->
+
+                    <h3 class="margin-topico">REFERÊNCIAS</h3>
+
+                    <p>REZENDE, Adalgiza S. Carneiro de; COSTA, Maria Dulcinéia da. <strong>Pelagem dos equinos:
+                            nomenclatura e genética.</strong> 4ª ed. Belo Horizonte/MG: FEPMVZ Editora, 2019.</p>
+
+                    <p><br>SPONENBERG, Dan Phillip; BELLONE, Rebecca. <strong>Equine Color Genetics.</strong> 4ª ed.
+                        Hoboken/NJ: John Wiley & Sons, Inc., 2017.</p>
+
+                    <p><br><strong>Roan Zygosity Test.</strong> Site UC Davis: Veterinary Medicine & Veterinary Genetics
+                        Laboratory. Disponível em: <a href="https://vgl.ucdavis.edu/test/roan" target="_blank"
+                            style="color: #b2a574;">https://vgl.ucdavis.edu/test/roan</a></p>
+
+                    <p><br><strong>What is a Roan horse - Compare to other Roaning patterns.</strong> Site Horse and Us
+                        -
+                        Multimedia Educational Content About Horses. Disponível em: <a
+                            href="https://www.horsesandus.com/what-is-a-roan-horse/" target="_blank"
+                            style="color: #b2a574;">https://www.horsesandus.com/what-is-a-roan-horse/</a></p>
                 </div>
-            </article>
-        </div>    
-        <article class="form-article">
-            <div class="central">
-            <h3 class="form-title">Gostaria de aprender diretamente com um especialista ?</h3>
-                <p>Então preencha os campos abaixo para receber mais informações sobre nossos produtos e serviços</p>
-                <div class="form">
-                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="0wSeNgYs-0ieHO9Q1V1I6A" data-form="1"></script></div>
             </div>
         </article>
+    </div>
+    <article class="form-article">
+        <div class="central">
+            <h3 class="form-title">Gostaria de aprender diretamente com um especialista ?</h3>
+            <p>Então preencha os campos abaixo para receber mais informações sobre nossos produtos e serviços</p>
+            <div class="form">
+                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="0wSeNgYs-0ieHO9Q1V1I6A"
+                    data-form="1"></script>
+            </div>
+        </div>
+    </article>
     <footer>
-        <p>Conheça também nosso criatório, clique <a href="https://gypsyranchbrazil.com.br">AQUI</a> ou acesse nossas redes Gypsy Ranch Brazil.</p>
+        <p>Conheça também nosso criatório, clique <a href="https://gypsyranchbrazil.com.br">AQUI</a> ou acesse nossas
+            redes Gypsy Ranch Brazil.</p>
         <p>&copy; Genetics Ranch Brazil. Todos os direitos reservados.
-        <small>Desenvolvido por: Breno Valentim</small></p>
+            <small>Desenvolvido por: Breno Valentim</small>
+        </p>
     </footer>
-    
+
     <script src="../../../vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../../vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../../vendor/owl/js/owl.js"></script>
     <script src="../../../vendor/owl/js/owl-titulos.js"></script>
     <script src="../../../js/custom.js"></script>
     <script src="../../../js/custom-carousel.js"></script>
-    
+
 </body>
+
 </html>

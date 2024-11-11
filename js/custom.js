@@ -694,7 +694,7 @@
             { Codigo: "EE | Aa | CrCr", E: 3, A: 2, CPrl: 3, Z: 2, G: 1, D: 2, R: 1, Ch: 1, Cor: "Perlino Prateado Dun" },
             { Codigo: "ee | AA | CrCr", E: 1, A: 3, CPrl: 3, Z: 2, G: 1, D: 2, R: 1, Ch: 1, Cor: "Cremello Dun" },
             { Codigo: "Ee | AA | CrCr", E: 2, A: 3, CPrl: 3, Z: 2, G: 1, D: 2, R: 1, Ch: 1, Cor: "Perlino Prateado Dun" },
-            { Codigo: "EE | AA | CrCr", E: 3, A: 3, CPrl: 3, Z: 2, G: 1, D: 2, R: 1, Ch: 1, Cor: "Perlino Prateado Dun" }, 
+            { Codigo: "EE | AA | CrCr", E: 3, A: 3, CPrl: 3, Z: 2, G: 1, D: 2, R: 1, Ch: 1, Cor: "Perlino Prateado Dun" },
             { Codigo: "ee | aa", E: 1, A: 1, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho de Alazão" },
             { Codigo: "Ee | aa", E: 2, A: 1, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro" },
             { Codigo: "EE | aa", E: 3, A: 1, CPrl: 1, Z: 1, G: 1, D: 1, R: 2, Ch: 1, Cor: "Rosilho Negro" },
@@ -2814,37 +2814,37 @@
                 const results = PelagemPrincipal.calculaPelo(n, l);
 
                 //Mapeamento das imagens
-                
+
                 const defaultImageUrl = "./img/Fotos/Calculadora/Construcao.jpg";
 
                 const colorToImageUrl = {
                     "Alazão (Sorrel)": "./img/Fotos/Calculadora/Alazao.jpg"
-                    ,"Castanho": "./img/Fotos/Calculadora/Castanho.jpg"
-                    ,"Preto": "./img/Fotos/Calculadora/Preto.jpg"
-                    ,"Palomino (Baio Amarilho)": "./img/Fotos/Calculadora/Palomino.jpg"
-                    ,"Baio": "./img/Fotos/Calculadora/Baio.jpg"
-                    ,"Preto Esfumado": "./img/Fotos/Calculadora/Preto-Esfumado.jpg"
-                    ,"Cremello": "./img/Fotos/Calculadora/Cremello.jpg"
-                    ,"Perlino": "./img/Fotos/Calculadora/Perlino.jpg"
-                    ,"Creme Esfumado": "./img/Fotos/Calculadora/Creme-Esfumado.jpg"
+                    , "Castanho": "./img/Fotos/Calculadora/Castanho.jpg"
+                    , "Preto": "./img/Fotos/Calculadora/Preto.jpg"
+                    , "Palomino (Baio Amarilho)": "./img/Fotos/Calculadora/Palomino.jpg"
+                    , "Baio": "./img/Fotos/Calculadora/Baio.jpg"
+                    , "Preto Esfumado": "./img/Fotos/Calculadora/Preto-Esfumado.jpg"
+                    , "Cremello": "./img/Fotos/Calculadora/Cremello.jpg"
+                    , "Perlino": "./img/Fotos/Calculadora/Perlino.jpg"
+                    , "Creme Esfumado": "./img/Fotos/Calculadora/Creme-Esfumado.jpg"
                     //"Castanho Prateado"
-                    ,"Negro Prateado": "./img/Fotos/Calculadora/Negro-Prateado.jpg"
+                    , "Negro Prateado": "./img/Fotos/Calculadora/Negro-Prateado.jpg"
 
-                    ,"Lobuno": "./img/Fotos/Calculadora/Lobuno.jpg"
+                    , "Lobuno": "./img/Fotos/Calculadora/Lobuno.jpg"
 
                     /* Tobianos */
 
-                    ,"Preto Tobiano": "./img/Fotos/Calculadora/Preto-Tobiano.jpg"
-                    ,"Alazão (Sorrel) Tobiano": "./img/Fotos/Calculadora/Alazao-Tobiano.jpg"
-                    ,"Castanho Tobiano": "./img/Fotos/Calculadora/Castanho-Tobiano.jpg"
-                    ,"Palomino (Baio Amarilho) Tobiano": "./img/Fotos/Calculadora/Palomino-Tobiano.jpg"
-                    ,"Baio Tobiano": "./img/Fotos/Calculadora/Baio-Tobiano.jpg"
-                    ,"Preto Esfumado Tobiano": "./img/Fotos/Calculadora/Preto-Esfumado-Tobiano.jpg"
-                    ,"Champagne Clássico Tobiano": "./img/Fotos/Calculadora/Champagne-Classico-Tobiano.jpg"
-                    
+                    , "Preto Tobiano": "./img/Fotos/Calculadora/Preto-Tobiano.jpg"
+                    , "Alazão (Sorrel) Tobiano": "./img/Fotos/Calculadora/Alazao-Tobiano.jpg"
+                    , "Castanho Tobiano": "./img/Fotos/Calculadora/Castanho-Tobiano.jpg"
+                    , "Palomino (Baio Amarilho) Tobiano": "./img/Fotos/Calculadora/Palomino-Tobiano.jpg"
+                    , "Baio Tobiano": "./img/Fotos/Calculadora/Baio-Tobiano.jpg"
+                    , "Preto Esfumado Tobiano": "./img/Fotos/Calculadora/Preto-Esfumado-Tobiano.jpg"
+                    , "Champagne Clássico Tobiano": "./img/Fotos/Calculadora/Champagne-Classico-Tobiano.jpg"
+
                     /* Tordilhos */
 
-                    ,"Tordilho (Preto)": "./img/Fotos/Calculadora/Tordilho-Negro.jpg"
+                    , "Tordilho (Preto)": "./img/Fotos/Calculadora/Tordilho-Negro.jpg"
 
                     // Adicione mais mapeamentos de cor para URL conforme necessário
                 };
@@ -2863,14 +2863,14 @@
                         pElement.innerHTML = entry.Codigo + " = " + (100 * entry.TotP).toFixed(4) + "%";
                         collapsibleContent.appendChild(pElement);
                     });
-                    
+
                     let imageButton = document.createElement("button");
                     imageButton.innerHTML = "Mostrar Imagem";
                     imageButton.className = "show-image-button hidden";
                     imageButton.addEventListener("click", function () {
                         showImage(index);
                     });
-                    
+
 
                     let imageElement = document.createElement("img");
                     imageElement.className = "animal-image hidden";
@@ -2899,7 +2899,7 @@
                         } else {
                             content.style.maxHeight = content.scrollHeight + "px";
                         }
-                    
+
                         let imageButton = this.parentElement.querySelector(".show-image-button");
                         const imageElement = document.getElementById("foto-cavalo-" + index);
                         if (this.classList.contains("hccc-active")) {

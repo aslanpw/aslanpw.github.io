@@ -1,410 +1,563 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../css/reset.css">
-        <link rel="stylesheet" href="../../css/styles.css">
-        <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../vendor/owl/css/owl.css">
-        <link rel="stylesheet" href="../../vendor/owl/css/owl-titulo.css">
-        <link rel="stylesheet" href="../../vendor/fontawesome/fontawesome.css">
 
-        <!-- icones -->
-        <link rel="shortcut icon" href="../../img/favicon.png">
-        <link rel="shortcut icon" href="../../img/icon-touch-retina.png">
-        <link rel="shortcut icon" href="../../img/icon-touch-retina-iphone.png">
-        <link rel="shortcut icon" href="../../img/icon-touch-retina-ipad.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="../../vendor/owl/css/owl-titulo.css">
+    <link rel="stylesheet" href="../../vendor/fontawesome/fontawesome.css">
 
-        <!-- Fontes -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- icones -->
+    <link rel="shortcut icon" href="../../img/favicon.png">
+    <link rel="shortcut icon" href="../../img/icon-touch-retina.png">
+    <link rel="shortcut icon" href="../../img/icon-touch-retina-iphone.png">
+    <link rel="shortcut icon" href="../../img/icon-touch-retina-ipad.png">
 
-        <title>Genetics Ranch Brazil - Gene de Extensão</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-    </head>
-    <body>
-        <div class="main-container">
-            <div class="pre-header"><h4><a href="../../genetica.html">Sou Iniciante</a></h4></div>
-            <header>
-                <a href="../../index.html">     
+    <title>Genetics Ranch Brazil - Gene de Extensão</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="pre-header">
+            <h4><a href="../../genetica.html">Sou Iniciante</a></h4>
+        </div>
+        <header>
+            <a href="../../index.html">
                 <img src="../../img/marca-grb-horizontal.svg" alt="GeneticsRanchBrazil" id="desktop"></a>
-                <h1>Genetic Academic Guide</h1>
-            </header>
-        
-            <nav id="main-menu">
-                <img src="../../img/marca-grb-horizontal - DM.svg" alt="GeneticsRanchBrazil" id="mobile">
-                <ul>
-                    <input type="checkbox" id="bt_menu" />  
-                    <label for="bt_menu" id="dropdown">&#9776;</label>
-                    <li class="dropdown-item py-4 text-center"><a href="../../index.html">Início</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../genetica.html">Genética</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../pelagens.html">Pelagens</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../raças.html">Raças</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../noticias.html">Notícias</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../sobre-nos.html">Sobre Nós</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../contato.html">Contato</a></li>
-                    <li class="dropdown-item py-4 text-center"><a href="../../calculadora.html">Calculadora</a></li>
-                </ul>
-            </nav>
+            <h1>Genetic Academic Guide</h1>
+        </header>
 
-            <article>          
-                <div class="col-12 text-center text-lg-start barra-title" id="titulo-page"><h1>Guia de Pelagens</h1></div>
-                <nav class="col-12 marcador">
-                    <ol>
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a href="../../pelagens.html">Pelagens</a></li>
-                        <li class="atual">Cores Base</li>
-                        <li class="atual">Gene de Extensão</li>
-                    </ol>
-                </nav>
-                <div class="main-content">
-                    <div class="nav-lateral ps-lg-5 mx-lg-5 col-lg-3 col-sm-9 py-4">
-                        <h2 class="py-1">Gene de Extensão</h2>
-                        <nav>
-                            <ul class="text-center">
-                                <a href="../../pelagens.html"><li class="p-4 my-4" id="base-color">Introdução</li></a>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_cor_base" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Cores Base
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_cor_base">
-                                        <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../pelagens/Cor-Base/extensao.html">Gene de Extensão</a></li> 
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Cor-Base/agouti.html">Agouti</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Cor-Base/pangare.html">Pangaré (Mealy)</a></li>
-                                    </ul>
-                                </div> 
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_diluicoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Diluições e Modificadores
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_diluicoes">
-                                        <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../pelagens/Diluicoes-Modificadores/champagne.html">Diluição: Champagne</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Diluicoes-Modificadores/creme-perola.html">Diluição: Creme + Pérola</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Diluicoes-Modificadores/silver.html">Diluição: Silver</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Diluicoes-Modificadores/mushroom.html">Diluição: Mushroom</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Diluicoes-Modificadores/dun.html">Diluição: Dun</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Diluicoes-Modificadores/tordilho.html">Modificador: Tordilho</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                    <button type="button" id="bt_dropdown_padroes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Padrões de Branco
-                                    </button>
-                                    <ul class="init-hide drop_color" id="drop_lateral_padroes">
-                                        <li class="dropdown-item text-center">
-                                          <div class="bt_drop p-4 sub-dropdown-color">
-                                            <button type="button" id="bt_dropdown_kit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <nav id="main-menu">
+            <img src="../../img/marca-grb-horizontal - DM.svg" alt="GeneticsRanchBrazil" id="mobile">
+            <ul>
+                <input type="checkbox" id="bt_menu" />
+                <label for="bt_menu" id="dropdown">&#9776;</label>
+                <li class="dropdown-item py-4 text-center"><a href="../../index.html">Início</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../genetica.html">Genética</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../pelagens.html">Pelagens</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../raças.html">Raças</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../noticias.html">Notícias</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../sobre-nos.html">Sobre Nós</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../contato.html">Contato</a></li>
+                <li class="dropdown-item py-4 text-center"><a href="../../calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="col-12 text-center text-lg-start barra-title" id="titulo-page">
+                <h1>Guia de Pelagens</h1>
+            </div>
+            <nav class="col-12 marcador">
+                <ol>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../pelagens.html">Pelagens</a></li>
+                    <li class="atual">Cores Base</li>
+                    <li class="atual">Gene de Extensão</li>
+                </ol>
+            </nav>
+            <div class="main-content">
+                <div class="nav-lateral ps-lg-5 mx-lg-5 col-lg-3 col-sm-9 py-4">
+                    <h2 class="py-1">Gene de Extensão</h2>
+                    <nav>
+                        <ul class="text-center">
+                            <a href="../../pelagens.html">
+                                <li class="p-4 my-4" id="base-color">Introdução</li>
+                            </a>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_cor_base" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Cores Base
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_cor_base">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../pelagens/Cor-Base/extensao.html">Gene de Extensão</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Cor-Base/agouti.html">Agouti</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Cor-Base/pangare.html">Pangaré (Mealy)</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_diluicoes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Diluições e Modificadores
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_diluicoes">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/champagne.html">Diluição:
+                                            Champagne</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/creme-perola.html">Diluição:
+                                            Creme + Pérola</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/silver.html">Diluição:
+                                            Silver</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/mushroom.html">Diluição:
+                                            Mushroom</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/dun.html">Diluição: Dun</a>
+                                    </li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Diluicoes-Modificadores/tordilho.html">Modificador:
+                                            Tordilho</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_padroes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Padrões de Branco
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_padroes">
+                                    <li class="dropdown-item text-center">
+                                        <div class="bt_drop p-4 sub-dropdown-color">
+                                            <button type="button" id="bt_dropdown_kit" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
                                                 Gene KIT
                                             </button>
                                             <ul class="init-hide drop_color" id="drop_lateral_kit">
-                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../pelagens/Padroes-Branco/Gene-KIT/conceito-inicial.html">Conceito Inicial</a></li>
-                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../pelagens/Padroes-Branco/Gene-KIT/tobiano.html">Tobiano</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/Gene-KIT/rosilho.html">Rosilho</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/Gene-KIT/branco-dominante.html">Branco Dominante</a></li>
-                                                <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/Gene-KIT/sabino.html">Sabino</a></li>
+                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                                        href="../../pelagens/Padroes-Branco/Gene-KIT/conceito-inicial.html">Conceito
+                                                        Inicial</a></li>
+                                                <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                                        href="../../pelagens/Padroes-Branco/Gene-KIT/tobiano.html">Tobiano</a>
+                                                </li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../pelagens/Padroes-Branco/Gene-KIT/rosilho.html">Rosilho</a>
+                                                </li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../pelagens/Padroes-Branco/Gene-KIT/branco-dominante.html">Branco
+                                                        Dominante</a></li>
+                                                <li class="dropdown-item py-4 text-center"><a
+                                                        href="../../pelagens/Padroes-Branco/Gene-KIT/sabino.html">Sabino</a>
+                                                </li>
                                             </ul>
-                                          </div>
+                                        </div>
                                     </li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/overo.html">Overo</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/splashed-white.html">Splashed White</a></li>
-                                        <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Padroes-Branco/appaloosa.html">Appaloosa</a></li>
-                                    </ul>
-                                </div>
-                                <div class="bt_drop p-4 my-4" id="base-color">
-                                  <button type="button" id="bt_dropdown_cor_marcacoes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Marcações + Olhos
-                                  </button>
-                                  <ul class="init-hide drop_color" id="drop_lateral_cor_marcacoes">
-                                      <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a href="../../pelagens/Marcacoes-Olhos/faciais.html">Faciais</a></li>
-                                      <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Marcacoes-Olhos/membros-locomotores.html">Membros Locomotores</a></li>
-                                      <li class="dropdown-item py-4 text-center"><a href="../../pelagens/Marcacoes-Olhos/olhos.html">Olhos</a></li>
-                                  </ul>
-                                </div>
-                            </ul>
-                        </nav>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Padroes-Branco/overo.html">Overo</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Padroes-Branco/splashed-white.html">Splashed White</a>
+                                    </li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Padroes-Branco/appaloosa.html">Appaloosa</a></li>
+                                </ul>
+                            </div>
+                            <div class="bt_drop p-4 my-4" id="base-color">
+                                <button type="button" id="bt_dropdown_cor_marcacoes" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Marcações + Olhos
+                                </button>
+                                <ul class="init-hide drop_color" id="drop_lateral_cor_marcacoes">
+                                    <li class="dropdown-item py-4 text-center" style="margin-top: 1rem;"><a
+                                            href="../../pelagens/Marcacoes-Olhos/faciais.html">Faciais</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Marcacoes-Olhos/membros-locomotores.html">Membros
+                                            Locomotores</a></li>
+                                    <li class="dropdown-item py-4 text-center"><a
+                                            href="../../pelagens/Marcacoes-Olhos/olhos.html">Olhos</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-9 col-md-8 mx-auto px-lg-2 titulo">
+
+                    <div class="col-12 banner-calculadora my-5">
+                        <img src="../../img/Banner-topo/Termos.svg" alt="EtapaPais">
+                        <div class="col-12 col-lg-8 margin-x-5">
+                            <h3>COR BASE: GENE DE EXTENSÃO</h3>
+                            <p style="padding-top: 2rem;">O responsável pela determinação da cor base da pelagem,
+                                definindo se o cavalo terá uma cor Preta ou vermelha (Alazã).</p>
+                        </div>
                     </div>
-                    <div class="col-9 col-md-8 mx-auto px-lg-2 titulo">
 
-                        <div class="col-12 banner-calculadora my-5">
-                            <img src="../../img/Banner-topo/Termos.svg" alt="EtapaPais">
-                            <div class="col-12 col-lg-8 margin-x-5">
-                                <h3>COR BASE: GENE DE EXTENSÃO</h3>
-                                <p style="padding-top: 2rem;">O responsável pela determinação da cor base da pelagem, definindo se o cavalo terá uma cor Preta ou vermelha (Alazã).</p>
-                            </div>
-                        </div>
-                        
-                        <!-- INICIO DO CONTEUDO PRINCIPAL -->
-                        
-                        <p>A cor da pelagem de um cavalo é determinada pela presença ou ausência de dois pigmentos: o vermelho (Feomelanina), que gera o padrão da pelagem Alazã ou o preto (Eumelanina). O gene de extensão controla a produção do pigmento base, e todas as pelagens começam com um pigmento preto e/ou vermelho. A cor final da pelagem pode ser afetada por genes de diluição e modificadores que agem sobre o pigmento base.</p>
-                        
-                        <p><br>Animais de pelagem Castanho, Preto, Lobuno, Baio, Rosilho Negro, entre outros, possuem o pigmento preto e têm pelo menos uma cópia do gene <strong>Fator Preto (E)</strong>. Esse gene é dominante, portanto, cavalos homozigotos <strong>(EE)</strong> e heterozigotos <strong>(Ee)</strong> irão possuir a cor base da pelagem preta.</p>
+                    <!-- INICIO DO CONTEUDO PRINCIPAL -->
 
-                        <p><br>Um animal heterozigoto possui um alelo do gene preto <strong>(E)</strong> e um vermelho <strong>(e)</strong>, podendo transmitir tanto um quanto o outro para sua prole. Já um homozigoto <strong>(EE)</strong> possui duas cópias do gene e sempre produzirá potros com a pelagem base preta, independentemente da pelagem do parceiro.</p>
+                    <p>A cor da pelagem de um cavalo é determinada pela presença ou ausência de dois pigmentos: o
+                        vermelho (Feomelanina), que gera o padrão da pelagem Alazã ou o preto (Eumelanina). O gene de
+                        extensão controla a produção do pigmento base, e todas as pelagens começam com um pigmento preto
+                        e/ou vermelho. A cor final da pelagem pode ser afetada por genes de diluição e modificadores que
+                        agem sobre o pigmento base.</p>
 
-                        <p><br>Animais de pelagem Alazã/Sorrel, Palomino, Alazão <I>Dun</I>, Rosilho Alazão, entre outros, possuem o pigmento vermelho e têm duas cópias do gene <strong>Fator Vermelho (e)</strong>. Esse gene é recessivo e apenas produzirá animais com pigmentação avermelhada quando o animal apresentar duas cópias deste alelo <strong>(ee – homozigoto para o vermelho)</strong>. Portanto, um potro com a cor base vermelha é resultado de ambos os pais que possuem o alelo vermelho <strong>(e)</strong>.</p>
-                        
-                        <!-------INICIO Dupla de imagens-------->
+                    <p><br>Animais de pelagem Castanho, Preto, Lobuno, Baio, Rosilho Negro, entre outros, possuem o
+                        pigmento preto e têm pelo menos uma cópia do gene <strong>Fator Preto (E)</strong>. Esse gene é
+                        dominante, portanto, cavalos homozigotos <strong>(EE)</strong> e heterozigotos
+                        <strong>(Ee)</strong> irão possuir a cor base da pelagem preta.</p>
 
-                        <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
-                            <div class="col-md-12">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-3">
-                                        <img src="../../img/Fotos/Pelagens/extensão/Alazao.jpg" alt="Alazao">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Cavalo com a pelagem base vermelha (Alazão). <br><strong>Fonte: stallionesearch-esp.com</strong></p>
-                                    </div>
-                                    <div class="featured-item p-3">
-                                        <img src="../../img/Fotos/Pelagens/extensão/Preto.jpg" alt="Preto">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Cavalo com a pelagem base preta. <br><strong>Fonte: flickr.com/photos/rafterbardmorgans</strong></p>
-                                    </div>
+                    <p><br>Um animal heterozigoto possui um alelo do gene preto <strong>(E)</strong> e um vermelho
+                        <strong>(e)</strong>, podendo transmitir tanto um quanto o outro para sua prole. Já um
+                        homozigoto <strong>(EE)</strong> possui duas cópias do gene e sempre produzirá potros com a
+                        pelagem base preta, independentemente da pelagem do parceiro.</p>
+
+                    <p><br>Animais de pelagem Alazã/Sorrel, Palomino, Alazão <I>Dun</I>, Rosilho Alazão, entre outros,
+                        possuem o pigmento vermelho e têm duas cópias do gene <strong>Fator Vermelho (e)</strong>. Esse
+                        gene é recessivo e apenas produzirá animais com pigmentação avermelhada quando o animal
+                        apresentar duas cópias deste alelo <strong>(ee – homozigoto para o vermelho)</strong>. Portanto,
+                        um potro com a cor base vermelha é resultado de ambos os pais que possuem o alelo vermelho
+                        <strong>(e)</strong>.</p>
+
+                    <!-------INICIO Dupla de imagens-------->
+
+                    <div class="col-md-10 isola-carrousel" style="margin: 5rem auto;">
+                        <div class="col-md-12">
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                                <div class="featured-item p-3">
+                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao.jpg" alt="Alazao">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Cavalo com a pelagem
+                                        base vermelha (Alazão). <br><strong>Fonte: stallionesearch-esp.com</strong></p>
+                                </div>
+                                <div class="featured-item p-3">
+                                    <img src="../../img/Fotos/Pelagens/extensão/Preto.jpg" alt="Preto">
+                                    <p class="text-center my-3"
+                                        style="font-size: 1.5rem;text-align:justify !important;">Cavalo com a pelagem
+                                        base preta. <br><strong>Fonte: flickr.com/photos/rafterbardmorgans</strong></p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-------FINAL Dupla de imagens-------->
+                    <!-------FINAL Dupla de imagens-------->
 
-                        <p>Como em todas as pelagens, a pelagem base Preta pode variar de tonalidade, sendo algumas delas:</p>
+                    <p>Como em todas as pelagens, a pelagem base Preta pode variar de tonalidade, sendo algumas delas:
+                    </p>
 
-                        <table class="table">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <table class="table">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col">Cor Base</th>
                                 <th scope="col">Tonalidade Escura</th>
                                 <th scope="col">Tonalidade Média</th>
                                 <th scope="col">Tonalidade Clara</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574;">Preto</th>
                                 <td>Preto Azeviche</td>
                                 <td>Preto</td>
                                 <td>Summer Black</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                            <!-------INICIO Carrousel-------->
+                    <!-------INICIO Carrousel-------->
 
-                            <div class="col-md-12 my-5">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                    <div class="featured-item p-5">
-                                        <img src="../../img/Fotos/Pelagens/extensão/Preto-Azeviche.jpg" alt="Preto-Azeviche">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Preto Azeviche. Segundo o livro Equine Color Genetics (2017), esta pelagem é rara na maioria das raças e somente está presente nos animais que estão no auge da sua vida e em excelentes condições nutricionais. Esta pelagem normalmente não “desbota” quando exposta ao sol. <br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
-                                    </div>
-                                    <div class="featured-item p-5">
-                                        <img src="../../img/Fotos/Pelagens/extensão/Summer-Black.jpg" alt="Summer-Black">
-                                        <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Summer Black. Esta pelagem possui um tom avermelhado no corpo, mas mantém a tonalidade escura típica dos animais negros. Possui este nome pois a pelagem tende a “desbotar” quando exposta ao sol (ou seja, nos dias quentes de verão - em inglês Summer). <br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
-                                    </div>
-                                </div>
+                    <div class="col-md-12 my-5">
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto-Azeviche.jpg" alt="Preto-Azeviche">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Preto Azeviche. Segundo o livro Equine Color Genetics (2017), esta
+                                    pelagem é rara na maioria das raças e somente está presente nos animais que estão no
+                                    auge da sua vida e em excelentes condições nutricionais. Esta pelagem normalmente
+                                    não “desbota” quando exposta ao sol. <br><br><strong>Fonte: SPONENBERG, Dan Phillip;
+                                        BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
                             </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Summer-Black.jpg" alt="Summer-Black">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Summer Black. Esta pelagem possui um tom avermelhado no corpo, mas
+                                    mantém a tonalidade escura típica dos animais negros. Possui este nome pois a
+                                    pelagem tende a “desbotar” quando exposta ao sol (ou seja, nos dias quentes de verão
+                                    - em inglês Summer). <br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE,
+                                        Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
+                            </div>
+                        </div>
+                    </div>
 
-                            <!-------FINAL Carrousel-------->
-                            
-                        <h3 class="margin-topico">A PELAGEM ALAZÃ</h3>
+                    <!-------FINAL Carrousel-------->
 
-                        <p>Essa pelagem, assim como muitas outras, pode variar em tonalidade, desde tons mais claros até mais escuros. Essa variação não é controlada pelo gene de extensão, e ainda não foi encontrado o gene responsável por essa diversidade de cores. Apesar disso, todas essas variações são coletivamente chamadas de Alazão devido ao gene vermelho <strong>(ee)</strong>, no entanto cada variedade de tonalidade possui termos diferentes para que possam ser distinguidas umas das outras.</p>
+                    <h3 class="margin-topico">A PELAGEM ALAZÃ</h3>
 
-                        <p>Como em todas as pelagens, a pelagem base Alazã pode variar de tonalidade, sendo algumas delas:</p>
+                    <p>Essa pelagem, assim como muitas outras, pode variar em tonalidade, desde tons mais claros até
+                        mais escuros. Essa variação não é controlada pelo gene de extensão, e ainda não foi encontrado o
+                        gene responsável por essa diversidade de cores. Apesar disso, todas essas variações são
+                        coletivamente chamadas de Alazão devido ao gene vermelho <strong>(ee)</strong>, no entanto cada
+                        variedade de tonalidade possui termos diferentes para que possam ser distinguidas umas das
+                        outras.</p>
 
-                        <table class="table">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <p>Como em todas as pelagens, a pelagem base Alazã pode variar de tonalidade, sendo algumas delas:
+                    </p>
+
+                    <table class="table">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col">Cor Base</th>
                                 <th scope="col">Tonalidade Escura</th>
                                 <th scope="col">Tonalidade Média</th>
                                 <th scope="col">Tonalidade Clara</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574;">Alazão</th>
                                 <td>Alazão Escuro ou Alazão Tostado</td>
                                 <td>Alazão Avermelhado</td>
                                 <td>Alazão Claro</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                        <!-------INICIO Carrousel-------->
+                    <!-------INICIO Carrousel-------->
 
-                        <div class="col-md-12 my-5">
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao-Tostado.jpg" alt="Alazao-Tostado">
-                                    <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Liver Chestnut (no Brasil, também é conhecido como Alazão Tostado), sendo uma das tonalidades mais escuras dentre os Alazões.<br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao-Avermelhado.jpg" alt="Alazao-Avermelhado">
-                                    <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal de pelagem Alazão Avermelhado (Red Chestnut), uma das tonalidades mais escuras dentre as mais comuns da pelagem Alazã.<br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao-Claro.jpg" alt="Alazao-Claro">
-                                    <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">A pelagem Alazão Claro (Light Chestnut) possui uma tonalidade amarelada/ ouro, podendo ser confundida com a pelagem Palomino (Base  Alazã + 1 cópia do gene Creme) quando o gene Flaxen está presente, devido ao clareamento da crina e do rabo.<br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição (2017).</strong></p>
-                                </div>
+                    <div class="col-md-12 my-5">
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Alazao-Tostado.jpg" alt="Alazao-Tostado">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Liver Chestnut (no Brasil, também é conhecido como Alazão
+                                    Tostado), sendo uma das tonalidades mais escuras dentre os
+                                    Alazões.<br><br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine
+                                        Color Genetics - 4ª edição (2017).</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Alazao-Avermelhado.jpg"
+                                    alt="Alazao-Avermelhado">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal de pelagem Alazão Avermelhado (Red Chestnut), uma das tonalidades mais
+                                    escuras dentre as mais comuns da pelagem Alazã.<br><br><strong>Fonte: SPONENBERG,
+                                        Dan Phillip; BELLONE, Rebecca. Equine Color Genetics - 4ª edição
+                                        (2017).</strong></p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Alazao-Claro.jpg" alt="Alazao-Claro">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">A
+                                    pelagem Alazão Claro (Light Chestnut) possui uma tonalidade amarelada/ ouro, podendo
+                                    ser confundida com a pelagem Palomino (Base Alazã + 1 cópia do gene Creme) quando o
+                                    gene Flaxen está presente, devido ao clareamento da crina e do
+                                    rabo.<br><strong>Fonte: SPONENBERG, Dan Phillip; BELLONE, Rebecca. Equine Color
+                                        Genetics - 4ª edição (2017).</strong></p>
                             </div>
                         </div>
+                    </div>
 
-                        <!-------FINAL Carrousel-------->
+                    <!-------FINAL Carrousel-------->
 
-                        <h3 class="margin-topico">O TRAÇO <b class="atual-titulo destaque"><i>FLAXEN</i></b> NA PELAGEM ALAZÃ</h3>
-                        <p>Cavalos de diferentes tonalidades podem apresentar o traço <i>Flaxen</i>, que faz com que a crina e rabo sejam mais claros do que a pelagem do animal, como se fossem loiros. Quando o animal apresenta esta característica, o nomeamos de Crinalvo (ex.: Alazão Crinalvo).</p>
+                    <h3 class="margin-topico">O TRAÇO <b class="atual-titulo destaque"><i>FLAXEN</i></b> NA PELAGEM
+                        ALAZÃ</h3>
+                    <p>Cavalos de diferentes tonalidades podem apresentar o traço <i>Flaxen</i>, que faz com que a crina
+                        e rabo sejam mais claros do que a pelagem do animal, como se fossem loiros. Quando o animal
+                        apresenta esta característica, o nomeamos de Crinalvo (ex.: Alazão Crinalvo).</p>
 
-                        <!-------INICIO Carrousel-------->
+                    <!-------INICIO Carrousel-------->
 
-                        <div class="col-md-12 my-5">
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-3">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao-Crinalvo.jpg" alt="Alazao-Crinalvo">
-                                    <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Animal Alazão Claro Crinalvo.<br><strong>Fonte: br.pinterest.com/stablestuff</strong></p>
-                                </div>
-                                <div class="featured-item p-3">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Alazao-Escuro-Crinalvo.jpg" alt="Alazao-Escuro-Crinalvo">
-                                    <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">Alazão Escuro Crinalvo.<br><strong>Fonte: equinerainbow.weebly.com.</strong></p>
-                                </div>
+                    <div class="col-md-12 my-5">
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-3">
+                                <img src="../../img/Fotos/Pelagens/extensão/Alazao-Crinalvo.jpg" alt="Alazao-Crinalvo">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Animal Alazão Claro Crinalvo.<br><strong>Fonte:
+                                        br.pinterest.com/stablestuff</strong></p>
+                            </div>
+                            <div class="featured-item p-3">
+                                <img src="../../img/Fotos/Pelagens/extensão/Alazao-Escuro-Crinalvo.jpg"
+                                    alt="Alazao-Escuro-Crinalvo">
+                                <p class="text-center my-3" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Alazão Escuro Crinalvo.<br><strong>Fonte: equinerainbow.weebly.com.</strong></p>
                             </div>
                         </div>
+                    </div>
 
-                        <!-------FINAL Carrousel-------->
+                    <!-------FINAL Carrousel-------->
 
-                        <h3 class="margin-topico">INFORMAÇÕES GENÉTICAS</h3>
+                    <h3 class="margin-topico">INFORMAÇÕES GENÉTICAS</h3>
 
-                        <p>Nome do gene: <strong>MC1R (Receptor de Melanocortina-1)</strong></p>
+                    <p>Nome do gene: <strong>MC1R (Receptor de Melanocortina-1)</strong></p>
 
-                        <p>A cor da pelagem do cavalo é determinada principalmente por polimorfismo nos loci dos genes MC1R e ASIP, que determinam a cor da pelagem base em preto, castanho ou alazão.</p>
+                    <p>A cor da pelagem do cavalo é determinada principalmente por polimorfismo nos loci dos genes MC1R
+                        e ASIP, que determinam a cor da pelagem base em preto, castanho ou alazão.</p>
 
-                        <table class="table" style="text-align: center;">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <table class="table" style="text-align: center;">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col" style="width: 15%;">Alelos</th>
                                 <th scope="col" style="width: 15%;">Cor Base</th>
                                 <th scope="col">Modo de Herança</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">EE</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Preto</strong></th>
-                                <td style="text-align: justify;">Homozigoto para o preto, carregando duas cópias do gene e irá produzir animais de cor base Preta 100% das vezes.</td>
-                              </tr>
-                              <tr>
+                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Preto</strong>
+                                </th>
+                                <td style="text-align: justify;">Homozigoto para o preto, carregando duas cópias do gene
+                                    e irá produzir animais de cor base Preta 100% das vezes.</td>
+                            </tr>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Ee</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Preto</strong></th>
-                                <td style="text-align: justify;">Heterozigoto: possui pelagem preta e carrega uma cópia do gene Vermelho [<strong>e</strong>]. O animal terá pelagem Preta, mas poderá produzir animais de pelagem Alazã.</td>
-                              </tr>
-                              <tr>
+                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Preto</strong>
+                                </th>
+                                <td style="text-align: justify;">Heterozigoto: possui pelagem preta e carrega uma cópia
+                                    do gene Vermelho [<strong>e</strong>]. O animal terá pelagem Preta, mas poderá
+                                    produzir animais de pelagem Alazã.</td>
+                            </tr>
+                            <tr>
                                 <th scope="row" style="background-color: #b2a574; vertical-align: middle;">ee</th>
-                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Vermelho</strong></th>
-                                <td style="text-align: justify;">Homozigoto para o vermelho (Alazão), carregando duas cópias do gene e irá produzir animais de cor base vermelha.</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                                <th style="vertical-align: middle; background-color: #b2a574;"><strong>Vermelho</strong>
+                                </th>
+                                <td style="text-align: justify;">Homozigoto para o vermelho (Alazão), carregando duas
+                                    cópias do gene e irá produzir animais de cor base vermelha.</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                        <table class="table td-center" style="text-align: center; margin: 5rem auto;">
-                            <thead style="background-color: #b2a574;">
-                              <tr>
+                    <table class="table td-center" style="text-align: center; margin: 5rem auto;">
+                        <thead style="background-color: #b2a574;">
+                            <tr>
                                 <th scope="col">Genótipo</th>
                                 <th scope="col">Fenótipo</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">EE aa / Ee aa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">EE aa / Ee aa
+                                </th>
                                 <td style="vertical-align: middle;">Preto</td>
-                              </tr>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">EE Aa / EE AA / Ee Aa / Ee AA</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">EE Aa / EE AA
+                                    / Ee Aa / Ee AA</th>
                                 <td style="vertical-align: middle;">Castanho</td>
-                              </tr>
-                              <tr>
-                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Ee AA / ee Aa / ee aa</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #b2a574; vertical-align: middle;">Ee AA / ee Aa
+                                    / ee aa</th>
                                 <td style="vertical-align: middle;">Alazão</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                        <h3 class="margin-topico">PROBABILIDADE HEREDITÁRIA DOS GENES PRETO E ALAZÃO</h3>
+                    <h3 class="margin-topico">PROBABILIDADE HEREDITÁRIA DOS GENES PRETO E ALAZÃO</h3>
 
-                        <p>Utilizando o quadro de Punnet é possível calcular a probabilidade hereditária da pelagem que o potro pode possuir, utilizando os diferentes genótipos sabendo que:</p>
+                    <p>Utilizando o quadro de Punnet é possível calcular a probabilidade hereditária da pelagem que o
+                        potro pode possuir, utilizando os diferentes genótipos sabendo que:</p>
 
-                        <p><strong>EE</strong> = homozigoto para preto.</p>
-                        <p><strong>Ee</strong> = heterozigoto para preto.</p>
-                        <p><strong>ee</strong> = recessivo para o preto (portanto terá a pelagem base Alazã).</p>
+                    <p><strong>EE</strong> = homozigoto para preto.</p>
+                    <p><strong>Ee</strong> = heterozigoto para preto.</p>
+                    <p><strong>ee</strong> = recessivo para o preto (portanto terá a pelagem base Alazã).</p>
 
-                        <!-------INICIO Carrousel-------->
+                    <!-------INICIO Carrousel-------->
 
-                        <div class="col-md-12 my-5">
-                            <p class="text-center" style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;"><strong>Aplicação do Gene de Extensão no Quadro de Punnet.</strong></p>
-                            <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 1.png" alt="EEEE">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Ambos os pais são homozigotos (EE), portanto o potro irá herdar uma cópia de cada gene dominante, resultando sempre em um animal homozigoto.</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 2.png" alt="EeEE">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Mãe: heterozigoto – (Ee). Pai: homozigoto - (EE). Resultado: 50% = Homozigoto (EE) / 50% = Heterozigoto (Ee).</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 3.png" alt="EeEe">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Ambos os pais são heterozigotos - (Ee). Resultado: 25% = Homozigoto (EE) / 50% = Heterozigoto (Ee) / 25% = negativo para o fator Preto (ee).</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 4.png" alt="eeEe">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Mãe: negativa para o fator preto - (ee). Pai: heterozigoto - (Ee). Resultado: 50% = Heterozigoto (Ee) / 50% = negativo para o fator Preto (ee).</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 5.png" alt="eeEE">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Mãe: negativa para o fator preto - (ee). Pai:  homozigoto - (EE). Resultado: 100% = Heterozigoto (Ee), pois não importa como, o potro sempre irá herdar um gene dominante do pai e um recessivo da mãe.</p>
-                                </div>
-                                <div class="featured-item p-5">
-                                    <img src="../../img/Fotos/Pelagens/extensão/Preto 6.png" alt="eeee">
-                                    <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">Ambos os pais são Alazão (ee), portanto não possuem gene dominante, resultando sempre em um animal Alazão.</p>
-                                </div>
+                    <div class="col-md-12 my-5">
+                        <p class="text-center"
+                            style="font-size: 1.5rem;text-align:center !important; width: 100%; margin: 0 auto; background-color: #b2a574;">
+                            <strong>Aplicação do Gene de Extensão no Quadro de Punnet.</strong></p>
+                        <div class="owl-carousel owl-theme owl-loaded owl-drag text-center border border-secondary">
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 1.png" alt="EEEE">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Ambos os pais são homozigotos (EE), portanto o potro irá herdar uma cópia de cada
+                                    gene dominante, resultando sempre em um animal homozigoto.</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 2.png" alt="EeEE">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: heterozigoto – (Ee). Pai: homozigoto - (EE). Resultado: 50% = Homozigoto (EE) /
+                                    50% = Heterozigoto (Ee).</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 3.png" alt="EeEe">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Ambos os pais são heterozigotos - (Ee). Resultado: 25% = Homozigoto (EE) / 50% =
+                                    Heterozigoto (Ee) / 25% = negativo para o fator Preto (ee).</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 4.png" alt="eeEe">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: negativa para o fator preto - (ee). Pai: heterozigoto - (Ee). Resultado: 50% =
+                                    Heterozigoto (Ee) / 50% = negativo para o fator Preto (ee).</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 5.png" alt="eeEE">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Mãe: negativa para o fator preto - (ee). Pai: homozigoto - (EE). Resultado: 100% =
+                                    Heterozigoto (Ee), pois não importa como, o potro sempre irá herdar um gene
+                                    dominante do pai e um recessivo da mãe.</p>
+                            </div>
+                            <div class="featured-item p-5">
+                                <img src="../../img/Fotos/Pelagens/extensão/Preto 6.png" alt="eeee">
+                                <p class="text-center my-5" style="font-size: 1.5rem;text-align:justify !important;">
+                                    Ambos os pais são Alazão (ee), portanto não possuem gene dominante, resultando
+                                    sempre em um animal Alazão.</p>
                             </div>
                         </div>
-
-                        <!-------FINAL Carrousel-------->
-
-                        <h3 class="margin-topico">REFERÊNCIAS</h3>
-
-                        <p>JACOBS, Laura N.; STAIGER, Elizabeth A.; ALBRIGHT, Julia D.; BROOKS, Samantha A. <strong>The MC1R and ASIP coat color loci may impact behavior in the horse.</strong> Site PubMed - NIH: National Library of Medicine - National Center for Biotechnology Information. Disponível em: <a href="https://pubmed.ncbi.nlm.nih.gov/26884605/" target="_blank" style="color: #b2a574;">https://pubmed.ncbi.nlm.nih.gov/26884605/</a></p>
-
-                        <p><br><strong>More about Black/Red Factor - "Extension".</strong> Site Etalon Diagnostics. Disponível em: <a href="https://www.etalondx.com/black-and-red-factor-ee" target="_blank" style="color: #b2a574;">https://www.etalondx.com/black-and-red-factor-ee</a></p>
-
-                        <p><br><strong>Red/Black Factor.</strong> Site Animal Genetics. Disponível em: <a href="https://animalgenetics.com/horse-tests/equine-color-tests/93-red_black_factor/" target="_blank" style="color: #b2a574;">https://animalgenetics.com/horse-tests/equine-color-tests/93-red_black_factor/</a></p>
-
-                        <p><br>REZENDE, Adalgiza S. Carneiro de; COSTA, Maria Dulcinéia da. <strong>Pelagem dos equinos: nomenclatura e genética.</strong> 4ª ed. Belo Horizonte/MG: FEPMVZ Editora, 2019.</p>
-
-                        <p><br>SPONENBERG, Dan Phillip; BELLONE, Rebecca. <strong>Equine Color Genetics.</strong> 4ª ed. Hoboken/NJ: John Wiley & Sons, Inc., 2017.</p>
-
-                        <p><br><strong>The 3 Base Horse Coat Colors - Complete Guide.</strong> Site Horse and Us - Multimedia Educational Content About Horses. Disponível em: <a href="https://www.horsesandus.com/what-are-the-3-base-horse-coat-colours/" target="_blank" style="color: #b2a574;">https://www.horsesandus.com/what-are-the-3-base-horse-coat-colours/</a></p>
-
                     </div>
+
+                    <!-------FINAL Carrousel-------->
+
+                    <h3 class="margin-topico">REFERÊNCIAS</h3>
+
+                    <p>JACOBS, Laura N.; STAIGER, Elizabeth A.; ALBRIGHT, Julia D.; BROOKS, Samantha A. <strong>The MC1R
+                            and ASIP coat color loci may impact behavior in the horse.</strong> Site PubMed - NIH:
+                        National Library of Medicine - National Center for Biotechnology Information. Disponível em: <a
+                            href="https://pubmed.ncbi.nlm.nih.gov/26884605/" target="_blank"
+                            style="color: #b2a574;">https://pubmed.ncbi.nlm.nih.gov/26884605/</a></p>
+
+                    <p><br><strong>More about Black/Red Factor - "Extension".</strong> Site Etalon Diagnostics.
+                        Disponível em: <a href="https://www.etalondx.com/black-and-red-factor-ee" target="_blank"
+                            style="color: #b2a574;">https://www.etalondx.com/black-and-red-factor-ee</a></p>
+
+                    <p><br><strong>Red/Black Factor.</strong> Site Animal Genetics. Disponível em: <a
+                            href="https://animalgenetics.com/horse-tests/equine-color-tests/93-red_black_factor/"
+                            target="_blank"
+                            style="color: #b2a574;">https://animalgenetics.com/horse-tests/equine-color-tests/93-red_black_factor/</a>
+                    </p>
+
+                    <p><br>REZENDE, Adalgiza S. Carneiro de; COSTA, Maria Dulcinéia da. <strong>Pelagem dos equinos:
+                            nomenclatura e genética.</strong> 4ª ed. Belo Horizonte/MG: FEPMVZ Editora, 2019.</p>
+
+                    <p><br>SPONENBERG, Dan Phillip; BELLONE, Rebecca. <strong>Equine Color Genetics.</strong> 4ª ed.
+                        Hoboken/NJ: John Wiley & Sons, Inc., 2017.</p>
+
+                    <p><br><strong>The 3 Base Horse Coat Colors - Complete Guide.</strong> Site Horse and Us -
+                        Multimedia Educational Content About Horses. Disponível em: <a
+                            href="https://www.horsesandus.com/what-are-the-3-base-horse-coat-colours/" target="_blank"
+                            style="color: #b2a574;">https://www.horsesandus.com/what-are-the-3-base-horse-coat-colours/</a>
+                    </p>
+
                 </div>
-            </article>
-        </div>    
-        <article class="form-article">
-            <div class="central">
-            <h3 class="form-title">Gostaria de aprender diretamente com um especialista ?</h3>
-                <p>Então preencha os campos abaixo para receber mais informações sobre nossos produtos e serviços</p>
-                <div class="form">
-                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="0wSeNgYs-0ieHO9Q1V1I6A" data-form="1"></script></div>
             </div>
         </article>
+    </div>
+    <article class="form-article">
+        <div class="central">
+            <h3 class="form-title">Gostaria de aprender diretamente com um especialista ?</h3>
+            <p>Então preencha os campos abaixo para receber mais informações sobre nossos produtos e serviços</p>
+            <div class="form">
+                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="0wSeNgYs-0ieHO9Q1V1I6A"
+                    data-form="1"></script>
+            </div>
+        </div>
+    </article>
     <footer>
-        <p>Conheça também nosso criatório, clique <a href="https://gypsyranchbrazil.com.br">AQUI</a> ou acesse nossas redes Gypsy Ranch Brazil.</p>
+        <p>Conheça também nosso criatório, clique <a href="https://gypsyranchbrazil.com.br">AQUI</a> ou acesse nossas
+            redes Gypsy Ranch Brazil.</p>
         <p>&copy; Genetics Ranch Brazil. Todos os direitos reservados.
-        <small>Desenvolvido por: Breno Valentim</small></p>
+            <small>Desenvolvido por: Breno Valentim</small>
+        </p>
     </footer>
-    
+
     <script src="../../vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../vendor/owl/js/owl.js"></script>
     <script src="../../vendor/owl/js/owl-titulos.js"></script>
     <script src="../../js/custom.js"></script>
     <script src="../../js/custom-carousel.js"></script>
-    
+
 </body>
+
 </html>

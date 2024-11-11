@@ -1202,6 +1202,10 @@
         width: 50% !important;
     }
 
+    .img-mobile-size {
+        width: 100% !important;
+    }
+
     /*Logomarcas Claro e Escuro */
     #desktop {
         display: none;
